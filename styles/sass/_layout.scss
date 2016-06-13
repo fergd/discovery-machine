@@ -5,10 +5,33 @@
 	overflow: hidden;
 	@extend .centered-block;
 }
-.content-wrapper{
-	height: 100vh;
-	background: $blue;
-}
 .constrained{
 	max-width: 1024px;
+}
+.primary-content{
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	@extend .constrained;
+}
+.left, .right{
+	float: right;
+	width: 100%;
+	padding: 9px;
+}
+
+
+.item-primary-wrapper{
+	width: 100%;
+	overflow: hidden;
+}
+
+@media screen and (min-width: 768px){
+	.left{
+		width: 60%;
+	}
+	.right{
+		width: 40%;
+	}
+
 }

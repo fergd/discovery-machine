@@ -4,6 +4,8 @@
 	"vendors/flexboxgrid"
 ;
 $ms-ratio: $fourth;
+$button-height: 30px;
+
 // Boilerplates
 @import
 	"normalize",
@@ -18,12 +20,12 @@ $ms-ratio: $fourth;
 	"components/hero",
 	"components/search",
 	"components/header",
-	"components/featured-product"
+	"components/featured-product",
+	"components/item",
+	"components/action-buttons",
+	"components/footer",
+	"components/profile"
 ;
-// Custom normalizers
-h1, h2, h3, h4, h5, h6{
-	margin: 0;
-}
 body{
 	font-family: $f-book;
 	font-size: 100%;

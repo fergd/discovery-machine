@@ -1,0 +1,66 @@
+button.action-button{
+	outline: none;
+	border: none;
+	height: 100%;
+	position: relative;
+	padding: 0 9px 0 0;
+	display: inline-block;
+	overflow: hidden;
+	transition: all ease 0.5s;
+
+	i{
+		width: $button-height;
+		height: $button-height;
+		display: inline-block;
+		background-color: $dark-grey;
+		margin-right: 9px;
+		float: left;
+	}
+	i[class^="icon-"]{
+		background-position: center;
+	}
+	i.icon-arrow,
+	i.icon-share{
+		background-size: 14px;
+	}
+	i.icon-beast-head{
+		background-size: 24px;
+	}
+	&.upvote:hover,
+	&.upvote.active{
+		background-color: $yellow;
+		i{
+			background-color: darken($yellow, 10%);
+
+			}
+	}
+	&.share:hover,
+	&.share.active{
+		background-color: $turquoise;
+		span{
+			color: $white;
+		}
+		i{
+			background-color: darken($turquoise, 10%);
+
+			}
+	}
+	&.buy:hover,
+	&.buy.active{
+		background-color: $light-red;
+		span{
+			color: $white;
+		}
+		i{
+			background-color: darken($light-red, 10%);
+
+			}
+	}
+	span{
+		display: inline-block;
+		line-height: $button-height;
+		vertical-align: middle;
+		font-family: $f-medium;
+		color: $dark-blue;
+	}
+}

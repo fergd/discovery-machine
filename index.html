@@ -2,45 +2,194 @@
 <html class="no-js">
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
-	<title>Fergd Boilerplate</title>
-	<link rel="stylesheet" href="styles/css/main.css">
-	<script src="scripts/vendors/modernizr-3.3.1.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Fergd Boilerplate</title>
+    <link rel="stylesheet" href="styles/css/main.css">
+    <script src="scripts/vendors/modernizr-3.3.1.min.js"></script>
 </head>
 
 <body>
-	<!--[if lte IE 9]>
+    <!--[if lte IE 9]>
 		<p class="chromeframe">You are using an outdated browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 	<![endif]-->
-	<div id="skip"><a href="#content" class="is-visually-hidden focusable">Skip to Main Content</a></div>
-	<div id="content" class="content-wrapper" role="content">
-		<div class="hero-wrapper">
-			<h2>Curate Your Product Experience</h2>
-			<p>Discover. Vote. Buy. Share. INFLUENCE.</p>
-		</div>
-		<header id="waypoint" class="header-wrapper">
-			<div class="constrained centered-block">
-				<h1 class="">Spiffly</h1>
-				<nav class="navigation-wrapper">
-					<a href="#">Menu</a>
-					<a href="#" class="responsive-item">Spiffly Direct</a>
-					<a href="#" class="active responsive-item">Discover Products</a>
-				</nav>
-			</div>
-		</header>
-		<div class="featured-product-wrapper">
-		    <h2>Featured Product</h2>
-		    <!-- Prod item goes here -->
-		</div>
+    <div id="skip"><a href="#content" class="is-visually-hidden focusable">Skip to Main Content</a></div>
+    <div id="content" class="content-wrapper" role="content">
+        <div class="hero-wrapper">
+            <h2>Curate Your Product Experience</h2>
+            <p>Discover. Vote. Buy. Share. INFLUENCE.</p>
+        </div>
 
-	</div>
-	<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
-	<script src="scripts/vendors/jquery.waypoints.min.js"></script>
-	<script src="scripts/vendors/sticky.js"></script>
-	<script src="dest/output.min.js"></script>
+        <header id="waypoint" class="header-wrapper">
+            <div class="constrained centered-block">
+                <h1 class="">Spiffly</h1>
+                <nav class="navigation-wrapper">
+                    <a href="#">Menu</a>
+                    <a href="#" class="responsive-item">Spiffly Direct</a>
+                    <a href="#" class="active responsive-item">Discover Products</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="featured-item-wrapper">
+        	<div class="inner-wrapper">
+	            <h2>Featured Item</h2>
+	            <!-- Prod item goes here -->
+	            <div class="item-wrapper">
+	                <div class="item-inner-wrapper">
+	                    <img class="thumb" src="images/item-thumbs/honesttea.png" alt="">
+	                    <div class="info-wrapper">
+	                        <h2 class="item-title">Honest Tea</h2>
+	                        <p class="item-home">Santa Monica, CA</p>
+	                        <p class="item-description">Voted best to quench summertime thirst!</p>
+	                    </div>
+	                </div>
+	                <div class="item-actions-wrapper">
+	                    <button class="action-button upvote"><i class="icon-arrow"></i><span>7</span></button>
+	                    <button class="action-button share"><i class="icon-share"></i><span>Share</span></button>
+	                    <button class="action-button buy"><i class="icon-beast-head"></i><span>Buy</span></button>
+	                </div>
+	            </div>
+	        </div>
+        </div>
+		
+        <div class="primary-content">
+        	<div class="right">
+				<div class="profile-content">
+		        	<div class="profile-wrapper">
+					    <div class="profile-header">
+					        <img src="" class="profile-image" alt="">
+					        <p>Hi, {{first name}}</p>
+					    </div>
+					    <section class="share-items-wrapper">
+					        <h2>Share Your Experiences</h2>
+					        <ul>
+					            <li>
+					            </li>
+					        </ul>
+					    </section>
+					    <section class="curated-items-wrapper">
+					        <h2>Try Something New</h2>
+					        <ul>
+					            <li>
+					            </li>
+					        </ul>
+					    </section>
+					</div>
+				</div>
+			</div>
+        	<div class="left">
+	        	<div class="search-sort-wrapper">
+				    <div class="search-wrap">
+					    <input type="text" placeholder="Search products">
+					    <button class="search-button hidden-text">Search</button>
+					</div>
+				    <div class="sort-wrapper">
+				        <button>Newest</button>
+				        <button>Most Popular</button>
+				    </div>
+				</div>
+				<div class="item-primary-wrapper">
+					<div class="item-wrapper">
+		                <div class="item-inner-wrapper">
+		                    <img class="thumb" src="images/item-thumbs/honesttea.png" alt="">
+		                    <div class="info-wrapper">
+		                        <h2 class="item-title">Honest Tea</h2>
+		                        <p class="item-home">Santa Monica, CA</p>
+		                        <p class="item-description">Voted best to quench summertime thirst!</p>
+		                    </div>
+		                </div>
+		                <div class="item-actions-wrapper">
+		                    <button class="action-button upvote"><i class="icon-arrow"></i><span>7</span></button>
+		                    <button class="action-button share"><i class="icon-share"></i><span>Share</span></button>
+		                    <button class="action-button buy"><i class="icon-beast-head"></i><span>Buy</span></button>
+		                </div>
+		            </div>
+		            <div class="item-wrapper">
+		                <div class="item-inner-wrapper">
+		                    <img class="thumb" src="images/item-thumbs/honesttea.png" alt="">
+		                    <div class="info-wrapper">
+		                        <h2 class="item-title">Honest Tea</h2>
+		                        <p class="item-home">Santa Monica, CA</p>
+		                        <p class="item-description">Voted best to quench summertime thirst!</p>
+		                    </div>
+		                </div>
+		                <div class="item-actions-wrapper">
+		                    <button class="action-button upvote"><i class="icon-arrow"></i><span>7</span></button>
+		                    <button class="action-button share"><i class="icon-share"></i><span>Share</span></button>
+		                    <button class="action-button buy"><i class="icon-beast-head"></i><span>Buy</span></button>
+		                </div>
+		            </div>
+		            <div class="item-wrapper">
+		                <div class="item-inner-wrapper">
+		                    <img class="thumb" src="images/item-thumbs/honesttea.png" alt="">
+		                    <div class="info-wrapper">
+		                        <h2 class="item-title">Honest Tea</h2>
+		                        <p class="item-home">Santa Monica, CA</p>
+		                        <p class="item-description">Voted best to quench summertime thirst!</p>
+		                    </div>
+		                </div>
+		                <div class="item-actions-wrapper">
+		                    <button class="action-button upvote"><i class="icon-arrow"></i><span>7</span></button>
+		                    <button class="action-button share"><i class="icon-share"></i><span>Share</span></button>
+		                    <button class="action-button buy"><i class="icon-beast-head"></i><span>Buy</span></button>
+		                </div>
+		            </div>
+		            <div class="item-wrapper">
+		                <div class="item-inner-wrapper">
+		                    <img class="thumb" src="images/item-thumbs/honesttea.png" alt="">
+		                    <div class="info-wrapper">
+		                        <h2 class="item-title">Honest Tea</h2>
+		                        <p class="item-home">Santa Monica, CA</p>
+		                        <p class="item-description">Voted best to quench summertime thirst!</p>
+		                    </div>
+		                </div>
+		                <div class="item-actions-wrapper">
+		                    <button class="action-button upvote"><i class="icon-arrow"></i><span>7</span></button>
+		                    <button class="action-button share"><i class="icon-share"></i><span>Share</span></button>
+		                    <button class="action-button buy"><i class="icon-beast-head"></i><span>Buy</span></button>
+		                </div>
+		            </div>
+		            <div class="item-wrapper">
+		                <div class="item-inner-wrapper">
+		                    <img class="thumb" src="images/item-thumbs/honesttea.png" alt="">
+		                    <div class="info-wrapper">
+		                        <h2 class="item-title">Honest Tea</h2>
+		                        <p class="item-home">Santa Monica, CA</p>
+		                        <p class="item-description">Voted best to quench summertime thirst!</p>
+		                    </div>
+		                </div>
+		                <div class="item-actions-wrapper">
+		                    <button class="action-button upvote"><i class="icon-arrow"></i><span>7</span></button>
+		                    <button class="action-button share"><i class="icon-share"></i><span>Share</span></button>
+		                    <button class="action-button buy"><i class="icon-beast-head"></i><span>Buy</span></button>
+		                </div>
+		            </div>
+				</div>
+			</div>
+        </div>
+		
+		<footer>
+	    	<ul class="naked-list links">
+	    		<li><a href="#">Discover Products</a></li>
+	    		<li><a href="#">Spiffly Direct</a></li>
+	    		<li><a href="#">Contact</a></li>
+	    		<li><a href="#">Open a Store</a></li>
+	    	</ul>
+			<div class="logo-wrapper">
+				<img src="images/Light_Blue_Vertical_Logo.png" alt="">
+			</div>
+   		</footer>
+
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+    <script src="scripts/vendors/jquery.waypoints.min.js"></script>
+    <script src="scripts/vendors/sticky.js"></script>
+    <script src="dest/output.min.js"></script>
 </body>
 
 </html>

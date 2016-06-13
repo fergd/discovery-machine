@@ -422,3 +422,8 @@ textarea {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
+
+// Custom normalizers
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+}
