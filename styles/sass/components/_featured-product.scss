@@ -1,0 +1,13 @@
+.featured-product-wrapper{
+	@extend .centered-block;
+	background: linear-gradient(45deg, rgba(26, 188, 156, 0.7), rgba(140, 37, 149, 0.6)), url(../../../../images/feature.jpg) left no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: ms(-2);
+    
+    h2{
+    	font-family: $f-bold;
+    	font-size: ms(3);
+    	color: $white;
+    }
+}

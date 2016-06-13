@@ -1,0 +1,40 @@
+.hero-wrapper {
+    @extend .centered-block;
+    background: linear-gradient(45deg, rgba(140, 37, 149, 0.6), rgba(26, 188, 156, 0.5)), url(../../../../images/hero-img.jpg) left no-repeat;
+    background-size: cover;
+    height: 260px;
+    padding: ms(-2);
+    text-align: center;
+    h2,
+    p {
+        color: $white;
+    }
+    h2 {
+        font-family: $f-bold;
+        font-size: ms(3);
+    }
+    p {
+        font-family: $f-medium;
+        font-size: ms(1);
+    }
+    @media screen and (min-width: 375px) {
+    	h2{
+    		margin-top: ms(1);
+    	}
+    }
+    @media screen and (min-width: 600px) {
+        h2 {
+            margin-top: ms(1);
+        }
+    }
+    @media screen and (min-width: 769px) {
+    	h2{
+    		margin-top: ms(0);
+    		font-size: ms(4);
+    	}
+    	p{
+    		font-size: ms(3);
+    		margin: 0;
+    	}
+    }
+}

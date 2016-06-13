@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js">
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,39 @@
 	<meta name="description" content="">
 	<title>Fergd Boilerplate</title>
 	<link rel="stylesheet" href="styles/css/main.css">
-
 	<script src="scripts/vendors/modernizr-3.3.1.min.js"></script>
 </head>
+
 <body>
 	<!--[if lte IE 9]>
-	    <p class="chromeframe">You are using an outdated browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+		<p class="chromeframe">You are using an outdated browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 	<![endif]-->
-	<h1 class="toggle">Fergd Boilerplate</h1>
+	<div id="skip"><a href="#content" class="is-visually-hidden focusable">Skip to Main Content</a></div>
+	<div id="content" class="content-wrapper" role="content">
+		<div class="hero-wrapper">
+			<h2>Curate Your Product Experience</h2>
+			<p>Discover. Vote. Buy. Share. INFLUENCE.</p>
+		</div>
+		<header id="waypoint" class="header-wrapper">
+			<div class="constrained centered-block">
+				<h1 class="">Spiffly</h1>
+				<nav class="navigation-wrapper">
+					<a href="#">Menu</a>
+					<a href="#" class="responsive-item">Spiffly Direct</a>
+					<a href="#" class="active responsive-item">Discover Products</a>
+				</nav>
+			</div>
+		</header>
+		<div class="featured-product-wrapper">
+		    <h2>Featured Product</h2>
+		    <!-- Prod item goes here -->
+		</div>
 
-
+	</div>
 	<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+	<script src="scripts/vendors/jquery.waypoints.min.js"></script>
+	<script src="scripts/vendors/sticky.js"></script>
 	<script src="dest/output.min.js"></script>
 </body>
+
 </html>

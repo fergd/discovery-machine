@@ -1,0 +1,14 @@
+.centered-block{
+	margin: 0 auto;
+}
+.centered-containing-block{
+	overflow: hidden;
+	@extend .centered-block;
+}
+.content-wrapper{
+	height: 100vh;
+	background: $blue;
+}
+.constrained{
+	max-width: 1024px;
+}

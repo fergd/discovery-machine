@@ -1,11 +1,34 @@
+// Vendor
+@import	
+	"vendors/modular-scale/modular-scale",
+	"vendors/flexboxgrid"
+;
+$ms-ratio: $fourth;
+// Boilerplates
 @import
-	"normalize"
+	"normalize",
+	"fonts",
+	"theme",
+	"helpers",
+	"layout",
+	"icons"
+;
+// Components
+@import
+	"components/hero",
+	"components/search",
+	"components/header",
+	"components/featured-product"
 ;
 // Custom normalizers
 h1, h2, h3, h4, h5, h6{
 	margin: 0;
 }
-
-.active{
-	color: orange;
+body{
+	font-family: $f-book;
+	font-size: 100%;
+	min-width: 320px;
 }
+@import 
+	"vendors/flexboxgrid"
+;

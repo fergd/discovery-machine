@@ -1,0 +1,71 @@
+.header-wrapper{
+	@extend .centered-block;
+	height: 50px;
+	background: $yellow;
+	width: 100%;
+
+	h1{
+		font-family: $f-bold;
+		width: 40%;
+		display: inline-block;
+		line-height: 50px;
+		vertical-align: middle;
+	}
+	// if no-svg
+	h1{
+		color: $dark-blue;
+		margin-left: 16px;
+	}
+	// if svg
+	html.svg &{
+		h1{
+			position: relative;
+			height: 50px;
+			@extend .is-hidden-text;
+			&::after{
+				content: '';
+				height: 50px;
+				width: 100%;
+				display: block;
+				@extend .icon-Light_Blue_Primary_Logo;
+				background-size: 100px;
+				position: absolute;
+				top: 0;
+				left: 0;
+				background-position: center left; 
+			}
+		}	
+	}
+	nav{
+		width: 50%;
+		float: right;
+		height: 100%;
+		overflow: hidden;
+
+		a{
+			line-height: 50px;
+			display: block;
+			vertical-align: middle;
+			font-family: $f-medium;
+			font-size: ms(0);
+			text-decoration: none;
+			padding: 0 21px;
+			float: right;
+			color: $dark-blue;
+			text-align: center;
+
+			&:hover{
+				background-color: lighten($yellow, 15%);
+			}
+			&.active{
+				text-decoration: underline;
+			}
+
+			&.responsive-item{
+				@media screen and (max-width: 720px){
+					display: none;
+				}
+			}
+		}
+	}
+}
