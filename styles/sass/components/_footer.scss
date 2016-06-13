@@ -1,7 +1,10 @@
 footer{
 	overflow: hidden;
 	height: 150px;
-	background: linear-gradient(4deg, $yellow 70%,$yellow 30%,#FFF 30%);
+	float: left;
+	width: 100%;
+	background: $yellow;
+	margin-top: 100px;
 
 	.links, .logo-wrapper{
 		width: 50%;
@@ -46,6 +49,7 @@ footer{
 	}
 	
 	@media screen and (min-width: 600px){
+		background: linear-gradient(4deg, $yellow 70%,$yellow 30%,#FFF 30%);
 		.links, .logo-wrapper{
 			display: inline-block;
 			position: relative;

@@ -10,28 +10,42 @@
 }
 .primary-content{
 	width: 100%;
-	overflow: hidden;
+	// float: left;
 	margin: 0 auto;
 	@extend .constrained;
 }
 .left, .right{
 	float: right;
 	width: 100%;
+}
+.left{
 	padding: 9px;
 }
 
-
 .item-primary-wrapper{
 	width: 100%;
-	overflow: hidden;
+	// overflow: hidden;
+	.item-wrapper{
+		margin: 21px auto 0 auto;
+	}
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 628px){
 	.left{
 		width: 60%;
 	}
 	.right{
 		width: 40%;
+	}
+
+}
+@media screen and (min-width: 1200px){
+	.left{
+		width: 70%;
+		padding-right: 50px;
+	}
+	.right{
+		width: 30%;
 	}
 
 }

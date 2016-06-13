@@ -6,7 +6,7 @@
 	}
 	background: linear-gradient(45deg, rgba(26, 188, 156, 0.7), rgba(140, 37, 149, 0.6)), url(../../../../images/feature.jpg) left no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 320px;
     padding: ms(-2);
     
     h2{
@@ -23,5 +23,9 @@
     .item-wrapper{
     	max-width: 500px;
     	margin-top: 30px;
+    }
+
+    @media screen and (min-width: 425px){
+    	height: 400px;
     }
 }

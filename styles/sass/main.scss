@@ -26,6 +26,9 @@ $button-height: 30px;
 	"components/footer",
 	"components/profile"
 ;
+a, a:visited{
+	color: $dark-blue;
+}
 body{
 	font-family: $f-book;
 	font-size: 100%;
