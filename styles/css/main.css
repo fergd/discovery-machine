@@ -1,0 +1,2578 @@
+/* Uncomment and set these variables to customize the grid. */
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.row {
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: -1rem;
+  margin-left: -1rem;
+}
+
+.row.reverse {
+  flex-direction: row-reverse;
+}
+
+.col.reverse {
+  flex-direction: column-reverse;
+}
+
+.col-xs,
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.col-xs {
+  flex-grow: 1;
+  flex-basis: 0;
+  max-width: 100%;
+}
+
+.col-xs-1 {
+  flex-basis: 8.333%;
+  max-width: 8.333%;
+}
+
+.col-xs-2 {
+  flex-basis: 16.667%;
+  max-width: 16.667%;
+}
+
+.col-xs-3 {
+  flex-basis: 25%;
+  max-width: 25%;
+}
+
+.col-xs-4 {
+  flex-basis: 33.333%;
+  max-width: 33.333%;
+}
+
+.col-xs-5 {
+  flex-basis: 41.667%;
+  max-width: 41.667%;
+}
+
+.col-xs-6 {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+
+.col-xs-7 {
+  flex-basis: 58.333%;
+  max-width: 58.333%;
+}
+
+.col-xs-8 {
+  flex-basis: 66.667%;
+  max-width: 66.667%;
+}
+
+.col-xs-9 {
+  flex-basis: 75%;
+  max-width: 75%;
+}
+
+.col-xs-10 {
+  flex-basis: 83.333%;
+  max-width: 83.333%;
+}
+
+.col-xs-11 {
+  flex-basis: 91.667%;
+  max-width: 91.667%;
+}
+
+.col-xs-12 {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.col-xs-offset-1 {
+  margin-left: 8.333%;
+}
+
+.col-xs-offset-2 {
+  margin-left: 16.667%;
+}
+
+.col-xs-offset-3 {
+  margin-left: 25%;
+}
+
+.col-xs-offset-4 {
+  margin-left: 33.333%;
+}
+
+.col-xs-offset-5 {
+  margin-left: 41.667%;
+}
+
+.col-xs-offset-6 {
+  margin-left: 50%;
+}
+
+.col-xs-offset-7 {
+  margin-left: 58.333%;
+}
+
+.col-xs-offset-8 {
+  margin-left: 66.667%;
+}
+
+.col-xs-offset-9 {
+  margin-left: 75%;
+}
+
+.col-xs-offset-10 {
+  margin-left: 83.333%;
+}
+
+.col-xs-offset-11 {
+  margin-left: 91.667%;
+}
+
+.start-xs {
+  justify-content: flex-start;
+  text-align: start;
+}
+
+.center-xs {
+  justify-content: center;
+  text-align: center;
+}
+
+.end-xs {
+  justify-content: flex-end;
+  text-align: end;
+}
+
+.top-xs {
+  -ms-grid-row-align: flex-start;
+      align-items: flex-start;
+}
+
+.middle-xs {
+  -ms-grid-row-align: center;
+      align-items: center;
+}
+
+.bottom-xs {
+  -ms-grid-row-align: flex-end;
+      align-items: flex-end;
+}
+
+.around-xs {
+  justify-content: space-around;
+}
+
+.between-xs {
+  justify-content: space-between;
+}
+
+.first-xs {
+  order: -1;
+}
+
+.last-xs {
+  order: 1;
+}
+
+@media only screen and (min-width: 48em) {
+  .container {
+    width: 46rem;
+  }
+  .col-sm,
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12 {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .col-sm {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+  }
+  .col-sm-1 {
+    flex-basis: 8.333%;
+    max-width: 8.333%;
+  }
+  .col-sm-2 {
+    flex-basis: 16.667%;
+    max-width: 16.667%;
+  }
+  .col-sm-3 {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+  .col-sm-4 {
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+  }
+  .col-sm-5 {
+    flex-basis: 41.667%;
+    max-width: 41.667%;
+  }
+  .col-sm-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .col-sm-7 {
+    flex-basis: 58.333%;
+    max-width: 58.333%;
+  }
+  .col-sm-8 {
+    flex-basis: 66.667%;
+    max-width: 66.667%;
+  }
+  .col-sm-9 {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+  .col-sm-10 {
+    flex-basis: 83.333%;
+    max-width: 83.333%;
+  }
+  .col-sm-11 {
+    flex-basis: 91.667%;
+    max-width: 91.667%;
+  }
+  .col-sm-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .col-sm-offset-1 {
+    margin-left: 8.333%;
+  }
+  .col-sm-offset-2 {
+    margin-left: 16.667%;
+  }
+  .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+  .col-sm-offset-4 {
+    margin-left: 33.333%;
+  }
+  .col-sm-offset-5 {
+    margin-left: 41.667%;
+  }
+  .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+  .col-sm-offset-7 {
+    margin-left: 58.333%;
+  }
+  .col-sm-offset-8 {
+    margin-left: 66.667%;
+  }
+  .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+  .col-sm-offset-10 {
+    margin-left: 83.333%;
+  }
+  .col-sm-offset-11 {
+    margin-left: 91.667%;
+  }
+  .start-sm {
+    justify-content: flex-start;
+    text-align: start;
+  }
+  .center-sm {
+    justify-content: center;
+    text-align: center;
+  }
+  .end-sm {
+    justify-content: flex-end;
+    text-align: end;
+  }
+  .top-sm {
+    -ms-grid-row-align: flex-start;
+        align-items: flex-start;
+  }
+  .middle-sm {
+    -ms-grid-row-align: center;
+        align-items: center;
+  }
+  .bottom-sm {
+    -ms-grid-row-align: flex-end;
+        align-items: flex-end;
+  }
+  .around-sm {
+    justify-content: space-around;
+  }
+  .between-sm {
+    justify-content: space-between;
+  }
+  .first-sm {
+    order: -1;
+  }
+  .last-sm {
+    order: 1;
+  }
+}
+
+@media only screen and (min-width: 62em) {
+  .container {
+    width: 61rem;
+  }
+  .col-md,
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12 {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .col-md {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+  }
+  .col-md-1 {
+    flex-basis: 8.333%;
+    max-width: 8.333%;
+  }
+  .col-md-2 {
+    flex-basis: 16.667%;
+    max-width: 16.667%;
+  }
+  .col-md-3 {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+  .col-md-4 {
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+  }
+  .col-md-5 {
+    flex-basis: 41.667%;
+    max-width: 41.667%;
+  }
+  .col-md-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .col-md-7 {
+    flex-basis: 58.333%;
+    max-width: 58.333%;
+  }
+  .col-md-8 {
+    flex-basis: 66.667%;
+    max-width: 66.667%;
+  }
+  .col-md-9 {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+  .col-md-10 {
+    flex-basis: 83.333%;
+    max-width: 83.333%;
+  }
+  .col-md-11 {
+    flex-basis: 91.667%;
+    max-width: 91.667%;
+  }
+  .col-md-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .col-md-offset-1 {
+    margin-left: 8.333%;
+  }
+  .col-md-offset-2 {
+    margin-left: 16.667%;
+  }
+  .col-md-offset-3 {
+    margin-left: 25%;
+  }
+  .col-md-offset-4 {
+    margin-left: 33.333%;
+  }
+  .col-md-offset-5 {
+    margin-left: 41.667%;
+  }
+  .col-md-offset-6 {
+    margin-left: 50%;
+  }
+  .col-md-offset-7 {
+    margin-left: 58.333%;
+  }
+  .col-md-offset-8 {
+    margin-left: 66.667%;
+  }
+  .col-md-offset-9 {
+    margin-left: 75%;
+  }
+  .col-md-offset-10 {
+    margin-left: 83.333%;
+  }
+  .col-md-offset-11 {
+    margin-left: 91.667%;
+  }
+  .start-md {
+    justify-content: flex-start;
+    text-align: start;
+  }
+  .center-md {
+    justify-content: center;
+    text-align: center;
+  }
+  .end-md {
+    justify-content: flex-end;
+    text-align: end;
+  }
+  .top-md {
+    -ms-grid-row-align: flex-start;
+        align-items: flex-start;
+  }
+  .middle-md {
+    -ms-grid-row-align: center;
+        align-items: center;
+  }
+  .bottom-md {
+    -ms-grid-row-align: flex-end;
+        align-items: flex-end;
+  }
+  .around-md {
+    justify-content: space-around;
+  }
+  .between-md {
+    justify-content: space-between;
+  }
+  .first-md {
+    order: -1;
+  }
+  .last-md {
+    order: 1;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .container {
+    width: 71rem;
+  }
+  .col-lg,
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12 {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .col-lg {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+  }
+  .col-lg-1 {
+    flex-basis: 8.333%;
+    max-width: 8.333%;
+  }
+  .col-lg-2 {
+    flex-basis: 16.667%;
+    max-width: 16.667%;
+  }
+  .col-lg-3 {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+  .col-lg-4 {
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+  }
+  .col-lg-5 {
+    flex-basis: 41.667%;
+    max-width: 41.667%;
+  }
+  .col-lg-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .col-lg-7 {
+    flex-basis: 58.333%;
+    max-width: 58.333%;
+  }
+  .col-lg-8 {
+    flex-basis: 66.667%;
+    max-width: 66.667%;
+  }
+  .col-lg-9 {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+  .col-lg-10 {
+    flex-basis: 83.333%;
+    max-width: 83.333%;
+  }
+  .col-lg-11 {
+    flex-basis: 91.667%;
+    max-width: 91.667%;
+  }
+  .col-lg-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .col-lg-offset-1 {
+    margin-left: 8.333%;
+  }
+  .col-lg-offset-2 {
+    margin-left: 16.667%;
+  }
+  .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+  .col-lg-offset-4 {
+    margin-left: 33.333%;
+  }
+  .col-lg-offset-5 {
+    margin-left: 41.667%;
+  }
+  .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+  .col-lg-offset-7 {
+    margin-left: 58.333%;
+  }
+  .col-lg-offset-8 {
+    margin-left: 66.667%;
+  }
+  .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+  .col-lg-offset-10 {
+    margin-left: 83.333%;
+  }
+  .col-lg-offset-11 {
+    margin-left: 91.667%;
+  }
+  .start-lg {
+    justify-content: flex-start;
+    text-align: start;
+  }
+  .center-lg {
+    justify-content: center;
+    text-align: center;
+  }
+  .end-lg {
+    justify-content: flex-end;
+    text-align: end;
+  }
+  .top-lg {
+    -ms-grid-row-align: flex-start;
+        align-items: flex-start;
+  }
+  .middle-lg {
+    -ms-grid-row-align: center;
+        align-items: center;
+  }
+  .bottom-lg {
+    -ms-grid-row-align: flex-end;
+        align-items: flex-end;
+  }
+  .around-lg {
+    justify-content: space-around;
+  }
+  .between-lg {
+    justify-content: space-between;
+  }
+  .first-lg {
+    order: -1;
+  }
+  .last-lg {
+    order: 1;
+  }
+}
+
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+* {
+  box-sizing: border-box;
+}
+
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+template,
+[hidden] {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+optgroup {
+  font-weight: bold;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'f-bold';
+  src: url("../../fonts/ParaType - Futura PT Bold.eot");
+  src: url("../../fonts/ParaType - Futura PT Bold.woff") format("woff"), url("../../fonts/ParaType - Futura PT Bold.ttf") format("truetype"), url("../../fonts/ParaType - Futura PT Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'f-book';
+  src: url("../../fonts/ParaType - Futura PT Book.eot");
+  src: url("../../fonts/ParaType - Futura PT Book.woff") format("woff"), url("../../fonts/ParaType - Futura PT Book.ttf") format("truetype"), url("../../fonts/ParaType - Futura PT Book.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'f-medium';
+  src: url("../../fonts/ParaType - Futura PT Medium.eot");
+  src: url("../../fonts/ParaType - Futura PT Medium.woff") format("woff"), url("../../fonts/ParaType - Futura PT Medium.ttf") format("truetype"), url("../../fonts/ParaType - Futura PT Medium.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2.section-title {
+  font-size: 3.160493824em;
+  font-family: "f-bold", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.is-hidden-text, html.svg .header-wrapper h1 {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  float: none;
+}
+
+.is-visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.is-visually-hidden.focusable:active,
+.is-visually-hidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.stuck {
+  position: fixed;
+  top: 0;
+}
+
+.naked-list {
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+.centered-block, .centered-containing-block, .brand-wrap, .search-sort-wrapper .search-wrap,
+.search-sort-wrapper .sort-wrapper, .hero-wrapper, .header-wrapper, .featured-item-wrapper, .featured-item-wrapper .inner-wrapper {
+  margin: 0 auto;
+}
+
+.centered-containing-block, .brand-wrap, .search-sort-wrapper .search-wrap,
+.search-sort-wrapper .sort-wrapper {
+  overflow: hidden;
+}
+
+.constrained, .primary-content, .brand-wrap, .featured-item-wrapper .inner-wrapper {
+  max-width: 1024px;
+}
+
+.primary-content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.left, .right {
+  float: right;
+  width: 100%;
+}
+
+.left {
+  padding: 9px;
+}
+
+.item-primary-wrapper {
+  width: 100%;
+}
+
+.item-primary-wrapper .item-wrapper {
+  margin: 21px auto 0 auto;
+}
+
+@media screen and (min-width: 628px) {
+  .left {
+    width: 60%;
+  }
+  .right {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .left {
+    width: 70%;
+    padding-right: 50px;
+  }
+  .right {
+    width: 30%;
+  }
+}
+
+.icon-Light_Blue_Primary_Logo, html.svg .header-wrapper h1::after {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%0A%20%20%20xmlns%3Adc%3D%22http%3A//purl.org/dc/elements/1.1/%22%0A%20%20%20xmlns%3Acc%3D%22http%3A//creativecommons.org/ns%23%22%0A%20%20%20xmlns%3Ardf%3D%22http%3A//www.w3.org/1999/02/22-rdf-syntax-ns%23%22%0A%20%20%20xmlns%3Asvg%3D%22http%3A//www.w3.org/2000/svg%22%0A%20%20%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%0A%20%20%20viewBox%3D%220%200%20421.07068%20190.36932%22%0A%20%20%20height%3D%22190.36932%22%0A%20%20%20width%3D%22421.07068%22%0A%20%20%20xml%3Aspace%3D%22preserve%22%0A%20%20%20id%3D%22svg2%22%0A%20%20%20version%3D%221.1%22%3E%3Cmetadata%0A%20%20%20%20%20id%3D%22metadata8%22%3E%3Crdf%3ARDF%3E%3Ccc%3AWork%0A%20%20%20%20%20%20%20%20%20rdf%3Aabout%3D%22%22%3E%3Cdc%3Aformat%3Eimage/svg+xml%3C/dc%3Aformat%3E%3Cdc%3Atype%0A%20%20%20%20%20%20%20%20%20%20%20rdf%3Aresource%3D%22http%3A//purl.org/dc/dcmitype/StillImage%22%20/%3E%3C/cc%3AWork%3E%3C/rdf%3ARDF%3E%3C/metadata%3E%3Cdefs%0A%20%20%20%20%20id%3D%22defs6%22%3E%3CclipPath%0A%20%20%20%20%20%20%20id%3D%22clipPath18%22%0A%20%20%20%20%20%20%20clipPathUnits%3D%22userSpaceOnUse%22%3E%3Cpath%0A%20%20%20%20%20%20%20%20%20id%3D%22path16%22%0A%20%20%20%20%20%20%20%20%20d%3D%22M%200%2C142.777%20H%20315.803%20V%200%20H%200%20Z%22%20/%3E%3C/clipPath%3E%3C/defs%3E%3Cg%0A%20%20%20%20%20transform%3D%22matrix%281.3333333%2C0%2C0%2C-1.3333333%2C0%2C190.36933%29%22%0A%20%20%20%20%20id%3D%22g10%22%3E%3Cg%0A%20%20%20%20%20%20%20id%3D%22g12%22%3E%3Cg%0A%20%20%20%20%20%20%20%20%20clip-path%3D%22url%28%23clipPath18%29%22%0A%20%20%20%20%20%20%20%20%20id%3D%22g14%22%3E%3Cg%0A%20%20%20%20%20%20%20%20%20%20%20transform%3D%22translate%28193.6582%2C83.846%29%22%0A%20%20%20%20%20%20%20%20%20%20%20id%3D%22g20%22%3E%3Cpath%0A%20%20%20%20%20%20%20%20%20%20%20%20%20id%3D%22path22%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20style%3D%22fill%3A%231c75bc%3Bfill-opacity%3A1%3Bfill-rule%3Anonzero%3Bstroke%3Anone%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20d%3D%22m%200%2C0%20c%20-1.314%2C0%20-2.38%2C1.065%20-2.38%2C2.379%200%2C1.315%201.066%2C2.38%202.38%2C2.38%201.314%2C0%202.38%2C-1.065%202.38%2C-2.38%20C%202.38%2C1.065%201.314%2C0%200%2C0%20m%20-14.791%2C9.078%20c%200.743%2C0%201.432%2C0.223%202.009%2C0.603%20-0.976%2C-1.428%20-2.616%2C-2.366%20-4.477%2C-2.366%20-2.993%2C0%20-5.42%2C2.427%20-5.42%2C5.421%200%2C2.994%202.427%2C5.421%205.42%2C5.421%201.861%2C0%203.501%2C-0.938%204.477%2C-2.366%20-0.577%2C0.38%20-1.266%2C0.603%20-2.009%2C0.603%20-2.02%2C0%20-3.658%2C-1.638%20-3.658%2C-3.658%200%2C-2.02%201.638%2C-3.658%203.658%2C-3.658%20M%202.044%2C7.413%20c%20-1.698%2C9.114%20-7.87%2C18.898%20-19.428%2C22.613%200.906%2C0.737%201.951%2C1.229%203.092%2C1.496%20-2.52%2C2.28%20-5.375%2C2.983%20-8.13%2C2.593%200.694%2C1.07%201.635%2C1.899%202.751%2C2.509%20-3.23%2C1.618%20-6.347%2C1.416%20-9.004%2C0.096%20-0.171%2C9.584%20-7.074%2C19.453%20-16.822%2C19.453%20-0.917%2C0%20-1.723%2C-0.196%20-2.307%2C-0.511%206.408%2C-3.673%208.177%2C-10.058%207.302%2C-16.018%20-1.672%2C1.568%20-3.905%2C2.565%20-6.71%2C2.623%200.766%2C-1.156%201.219%2C-2.448%201.279%2C-3.853%20-2.073%2C2.011%20-4.898%2C3.143%20-8.388%2C2.674%200.852%2C-0.934%201.472%2C-2.015%201.784%2C-3.243%20-2.61%2C1.894%20-5.915%2C2.612%20-9.567%2C1.23%200.913%2C-0.629%201.67%2C-1.414%202.237%2C-2.357%20-2.505%2C0.993%20-5.352%2C1.005%20-8.274%2C-0.492%209.258%2C-2.74%2014.491%2C-9.008%2015.769%2C-13.178%200.232%2C-1.859%20-0.455%2C-3.598%20-1.314%2C-4.515%20-2.046%2C10.04%20-12.039%2C15.577%20-22.352%2C15.577%20-13.353%2C0%20-18.465%2C-3.482%20-27.72%2C-3.482%20-8.594%2C0%20-21.859%2C3.482%20-29.395%2C13.133%20-1.454%2C-2.027%20-1.61%2C-6.385%201.19%2C-10.18%205.95%2C-8.064%2023.666%2C-14.278%2040.488%2C-12.717%201.098%2C-4.59%20-20.857%2C-4.191%20-32.234%2C2.895%20-0.599%2C-3.294%200.92%2C-5.458%202.594%2C-7.286%203.433%2C-3.748%2015.968%2C-8.482%2031.636%2C-4.291%200.899%2C-3.094%20-8.981%2C-6.187%20-21.656%2C-3.393%20-0.519%2C-2.818%202.395%2C-5.189%204.192%2C-5.888%205.206%2C-2.025%2013.472%2C-2.495%2020.957%2C0.998%200.799%2C-2.096%20-2.876%2C-4.56%20-9.134%2C-5.089%202.291%2C-3.966%207.46%2C-5.29%2014.224%2C-5.29%203.605%2C0%206.82%2C0.438%209.668%2C1.202%200.061%2C-2.566%20-4.81%2C-4.373%20-11.993%2C-4.373%20-7.037%2C0%20-15.601%2C1.586%20-16.747%2C8.285%20-8.814%2C0.088%20-16.963%2C4.22%20-15.336%2C11.194%20-4.623%2C1.019%20-11.598%2C4.714%20-13.095%2C10.475%20-2.299%2C0.632%20-4.828%2C0.446%20-7.4%2C-0.935%201.593%2C-0.813%202.853%2C-2.068%203.581%2C-3.836%20-3.448%2C1.899%20-7.55%2C2.123%20-11.29%2C-0.689%201.456%2C-0.483%202.719%2C-1.325%203.672%2C-2.587%20-3.519%2C0.494%20-7.075%2C-0.577%20-9.638%2C-3.99%201.437%2C-0.055%202.797%2C-0.467%204.006%2C-1.298%20-3.036%2C-0.626%20-5.708%2C-2.486%20-7.204%2C-5.94%201.586%2C0.316%203.182%2C0.173%204.707%2C-0.547%20-2.869%2C-0.7%20-5.373%2C-2.543%20-6.806%2C-5.84%201.539%2C0.305%203.086%2C0.18%204.568%2C-0.486%20-2.722%2C-1.125%20-4.915%2C-3.32%20-5.835%2C-6.787%201.57%2C0.566%203.223%2C0.65%204.89%2C0.111%20-0.007%2C-0.019%20-0.014%2C-0.037%20-0.021%2C-0.055%20-2.965%2C-1.426%20-5.197%2C-4.052%20-5.662%2C-8.003%200.963%2C0.512%201.991%2C0.821%203.068%2C0.896%20-3.69%2C-10.194%20-7.12%2C-18.173%20-17.334%2C-18.173%20-1.787%2C0%20-3.693%2C0.426%20-5.372%2C0.995%201.004%2C2.573%20-0.147%2C5.258%20-2.59%2C7.181%20-3.793%2C2.985%20-7.57%2C0.322%20-10.868%2C4.683%20-2.064%2C-4.012%20-1.92%2C-10.35%202.808%2C-14.07%202.695%2C-2.121%205.364%2C-2.649%207.676%2C-1.261%206.525%2C-4.138%2016.078%2C-4.29%2022.907%2C0.612%20l%20-6.584%2C-27.182%20c%20-0.309%2C-1.279%200.088%2C-1.939%201.278%2C-1.939%20h%2016.636%20c%201.587%2C0%202.633%2C0.343%203.041%2C1.939%200.97%2C3.79%203.812%2C16.109%203.988%2C16.35%201.565%2C-9.542%203.636%2C-18.289%207.272%2C-18.289%20l%2016.328%2C0.022%20c%201.983%2C0%203.041%2C0.925%201.653%2C3.701%20-1.505%2C3.009%20-2.67%2C6.305%20-3.53%2C9.632%202.147%2C0.823%203.885%2C2.392%205.148%2C4.366%20-0.02%2C-1.687%20-0.589%2C-3.186%20-1.569%2C-4.474%204.417%2C-0.197%207.569%2C2.025%209.399%2C5.236%200.058%2C-1.647%20-0.422%2C-3.144%20-1.306%2C-4.462%204.114%2C0.061%207.008%2C2.15%208.709%2C5.109%200.036%2C-1.522%20-0.398%2C-2.924%20-1.186%2C-4.182%203.424%2C0.157%205.959%2C1.694%207.641%2C3.943%20l%20-4.104%2C-16.996%20c%20-0.229%2C-0.914%20-0.048%2C-1.895%201.341%2C-1.895%20h%2017.17%20c%201.657%2C0%202.098%2C0.418%202.462%2C1.905%20l%204.952%2C20.262%20c%200.882%2C-10.753%205.113%2C-22.167%208.814%2C-22.167%20l%2015.865%2C0.022%20c%201.984%2C0%203.041%2C0.925%201.653%2C3.701%20-3.658%2C7.317%20-5.354%2C16.321%20-5.354%2C23.38%200%2C7.15%201.512%2C12.6%204.032%2C15.49%202.247%2C2.578%204.826%2C2.358%206.412%2C2.358%20h%2012.648%20c%2012.473%2C0%2017.269%2C2.079%2018.905%2C6.32%201.923%2C0.515%203.009%2C1.783%203.347%2C3.331%200.481%2C2.204%20-0.93%2C3.648%20-3.173%2C3.648%20h%20-11.491%20c%20-3.869%2C0.131%20-6.189%2C1.806%20-6.189%2C3.646%200%2C0%201.951%2C-0.676%204.681%2C-0.676%20h%2015.338%20c%202.312%2C0%203.605%2C2.293%204.264%2C4.921%201.952%2C0.859%203.316%2C2.806%203.316%2C5.075%200%2C2.234%20-1.323%2C4.155%20-3.227%2C5.034%22%20/%3E%3C/g%3E%3Cg%0A%20%20%20%20%20%20%20%20%20%20%20transform%3D%22translate%28178.4146%2C34.3636%29%22%0A%20%20%20%20%20%20%20%20%20%20%20id%3D%22g24%22%3E%3Cpath%0A%20%20%20%20%20%20%20%20%20%20%20%20%20id%3D%22path26%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20style%3D%22fill%3A%231c75bc%3Bfill-opacity%3A1%3Bfill-rule%3Anonzero%3Bstroke%3Anone%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20d%3D%22m%200%2C0%20c%200.648%2C0.299%201.354%2C0.449%202.119%2C0.449%200.997%2C0%201.945%2C-0.217%202.842%2C-0.649%200.897%2C-0.432%201.678%2C-0.964%202.343%2C-1.595%20l%204.488%2C4.637%20C%2010.562%2C4.005%209.057%2C4.877%207.279%2C5.459%205.501%2C6.04%203.681%2C6.331%201.82%2C6.331%200.624%2C6.331%20-0.582%2C6.174%20-1.795%2C5.858%20-3.008%2C5.542%20-4.113%2C5.052%20-5.11%2C4.387%20-6.107%2C3.722%20-6.922%2C2.867%20-7.554%2C1.82%20-8.185%2C0.772%20-8.5%2C-0.499%20-8.5%2C-1.995%20c%200%2C-1.163%200.215%2C-2.16%200.648%2C-2.991%200.431%2C-0.831%200.988%2C-1.529%201.669%2C-2.094%200.682%2C-0.566%201.454%2C-1.014%202.319%2C-1.346%200.864%2C-0.333%201.728%2C-0.598%202.593%2C-0.798%201.695%2C-0.399%202.941%2C-0.781%203.739%2C-1.147%200.798%2C-0.366%201.197%2C-0.931%201.197%2C-1.695%200%2C-0.798%20-0.324%2C-1.355%20-0.973%2C-1.67%20-0.648%2C-0.316%20-1.304%2C-0.474%20-1.969%2C-0.474%20-1.197%2C0%20-2.327%2C0.266%20-3.39%2C0.798%20-1.064%2C0.531%20-1.962%2C1.196%20-2.692%2C1.995%20l%20-4.587%2C-4.837%20c%201.296%2C-1.264%202.916%2C-2.219%204.861%2C-2.867%201.944%2C-0.648%203.93%2C-0.972%205.958%2C-0.972%201.262%2C0%202.525%2C0.149%203.789%2C0.448%201.263%2C0.3%202.401%2C0.781%203.415%2C1.446%201.014%2C0.665%201.837%2C1.537%202.468%2C2.618%200.631%2C1.08%200.948%2C2.401%200.948%2C3.964%200%2C1.197%20-0.233%2C2.226%20-0.699%2C3.091%20-0.465%2C0.864%20-1.08%2C1.595%20-1.844%2C2.194%20-0.765%2C0.598%20-1.621%2C1.079%20-2.568%2C1.446%20-0.947%2C0.365%20-1.887%2C0.648%20-2.817%2C0.847%20-1.595%2C0.366%20-2.751%2C0.698%20-3.465%2C0.997%20-0.715%2C0.299%20-1.072%2C0.798%20-1.072%2C1.496%200%2C0.731%200.324%2C1.247%200.972%2C1.546%22%20/%3E%3C/g%3E%3Cg%0A%20%20%20%20%20%20%20%20%20%20%20transform%3D%22translate%28212.4673%2C25.2147%29%22%0A%20%20%20%20%20%20%20%20%20%20%20id%3D%22g28%22%3E%3Cpath%0A%20%20%20%20%20%20%20%20%20%20%20%20%20id%3D%22path30%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20style%3D%22fill%3A%231c75bc%3Bfill-opacity%3A1%3Bfill-rule%3Anonzero%3Bstroke%3Anone%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20d%3D%22m%200%2C0%20c%20-0.249%2C-0.782%20-0.616%2C-1.471%20-1.097%2C-2.069%20-0.482%2C-0.598%20-1.089%2C-1.081%20-1.82%2C-1.446%20-0.731%2C-0.366%20-1.579%2C-0.549%20-2.542%2C-0.549%20-0.932%2C0%20-1.763%2C0.183%20-2.494%2C0.549%20-0.731%2C0.365%20-1.354%2C0.848%20-1.869%2C1.446%20-0.516%2C0.598%20-0.914%2C1.279%20-1.196%2C2.044%20-0.283%2C0.764%20-0.424%2C1.545%20-0.424%2C2.343%200%2C0.798%200.141%2C1.578%200.424%2C2.344%200.282%2C0.764%200.68%2C1.445%201.196%2C2.044%200.515%2C0.598%201.138%2C1.079%201.869%2C1.445%200.731%2C0.366%201.562%2C0.549%202.494%2C0.549%200.963%2C0%201.811%2C-0.183%202.542%2C-0.549%200.731%2C-0.366%201.338%2C-0.839%201.82%2C-1.42%20C%20-0.616%2C6.149%20-0.249%2C5.476%200%2C4.711%200.249%2C3.946%200.374%2C3.166%200.374%2C2.368%200.374%2C1.57%200.249%2C0.78%200%2C0%20m%205.135%2C11.492%20c%20-1.014%2C1.197%20-2.252%2C2.144%20-3.714%2C2.842%20-1.463%2C0.698%20-3.091%2C1.047%20-4.886%2C1.047%20-1.828%2C0%20-3.415%2C-0.374%20-4.762%2C-1.122%20-1.346%2C-0.748%20-2.401%2C-1.62%20-3.166%2C-2.617%20h%20-0.149%20v%203.041%20h%20-7.778%20v%20-36.796%20h%208.177%20v%2014.709%20h%200.1%20c%200.764%2C-1.064%201.827%2C-1.903%203.19%2C-2.518%201.363%2C-0.615%202.809%2C-0.922%204.338%2C-0.922%201.861%2C0%203.523%2C0.366%204.986%2C1.096%201.462%2C0.731%202.7%2C1.704%203.715%2C2.917%201.013%2C1.213%201.786%2C2.618%202.318%2C4.213%200.531%2C1.596%200.798%2C3.257%200.798%2C4.986%200%2C1.728%20-0.275%2C3.382%20-0.823%2C4.961%20-0.548%2C1.578%20-1.33%2C2.966%20-2.344%2C4.163%22%20/%3E%3C/g%3E%3Cpath%0A%20%20%20%20%20%20%20%20%20%20%20id%3D%22path32%22%0A%20%20%20%20%20%20%20%20%20%20%20style%3D%22fill%3A%231c75bc%3Bfill-opacity%3A1%3Bfill-rule%3Anonzero%3Bstroke%3Anone%22%0A%20%20%20%20%20%20%20%20%20%20%20d%3D%22m%20223.76%2C15.068%20h%208.177%20v%2024.83%20h%20-8.177%20z%22%20/%3E%3Cg%0A%20%20%20%20%20%20%20%20%20%20%20transform%3D%22translate%28231.1641%2C51.0164%29%22%0A%20%20%20%20%20%20%20%20%20%20%20id%3D%22g34%22%3E%3Cpath%0A%20%20%20%20%20%20%20%20%20%20%20%20%20id%3D%22path36%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20style%3D%22fill%3A%231c75bc%3Bfill-opacity%3A1%3Bfill-rule%3Anonzero%3Bstroke%3Anone%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20d%3D%22m%200%2C0%20c%20-0.415%2C0.398%20-0.914%2C0.714%20-1.496%2C0.947%20-0.582%2C0.232%20-1.188%2C0.349%20-1.819%2C0.349%20-0.666%2C0%20-1.28%2C-0.125%20-1.845%2C-0.374%20-0.566%2C-0.249%20-1.065%2C-0.573%20-1.496%2C-0.972%20-0.432%2C-0.399%20-0.765%2C-0.872%20-0.997%2C-1.421%20-0.233%2C-0.549%20-0.349%2C-1.122%20-0.349%2C-1.72%200%2C-1.23%200.449%2C-2.286%201.346%2C-3.166%200.897%2C-0.881%202.011%2C-1.322%203.341%2C-1.322%200.631%2C0%201.237%2C0.117%201.819%2C0.349%200.582%2C0.233%201.081%2C0.549%201.496%2C0.948%200.416%2C0.399%200.748%2C0.873%200.997%2C1.421%200.25%2C0.548%200.374%2C1.138%200.374%2C1.77%200%2C0.631%20-0.124%2C1.221%20-0.374%2C1.77%20C%200.748%2C-0.872%200.416%2C-0.399%200%2C0%22%20/%3E%3C/g%3E%3Cg%0A%20%20%20%20%20%20%20%20%20%20%20transform%3D%22translate%28267.0865%2C53.7083%29%22%0A%20%20%20%20%20%20%20%20%20%20%20id%3D%22g38%22%3E%3Cpath%0A%20%20%20%20%20%20%20%20%20%20%20%20%20id%3D%22path40%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20style%3D%22fill%3A%231c75bc%3Bfill-opacity%3A1%3Bfill-rule%3Anonzero%3Bstroke%3Anone%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20d%3D%22m%200%2C0%20c%20-2.061%2C0%20-3.781%2C-0.308%20-5.16%2C-0.922%20-1.38%2C-0.616%20-2.477%2C-1.446%20-3.291%2C-2.493%20-0.815%2C-1.047%20-1.388%2C-2.261%20-1.72%2C-3.64%20-0.332%2C-1.38%20-0.498%2C-2.834%20-0.498%2C-4.362%20v%20-2.394%20h%20-8.477%20v%202.494%20c%200%2C0.564%200.051%2C1.129%200.15%2C1.694%200.1%2C0.565%200.283%2C1.073%200.549%2C1.521%200.265%2C0.449%200.631%2C0.806%201.097%2C1.072%200.465%2C0.266%201.079%2C0.399%201.845%2C0.399%200.398%2C0%200.797%2C-0.034%201.196%2C-0.099%200.399%2C-0.067%200.747%2C-0.15%201.047%2C-0.25%20l%200.548%2C6.481%20c%20-0.565%2C0.166%20-1.188%2C0.291%20-1.869%2C0.375%20-0.682%2C0.082%20-1.372%2C0.124%20-2.069%2C0.124%20-2.061%2C0%20-3.782%2C-0.308%20-5.161%2C-0.922%20-1.379%2C-0.616%20-2.476%2C-1.446%20-3.291%2C-2.493%20-0.815%2C-1.047%20-1.388%2C-2.261%20-1.719%2C-3.64%20-0.333%2C-1.38%20-0.499%2C-2.834%20-0.499%2C-4.362%20v%20-2.394%20h%20-4.537%20v%20-6.082%20h%204.537%20V%20-38.64%20h%208.176%20v%2018.747%20h%208.477%20V%20-38.64%20h%208.176%20v%2018.747%20h%205.535%20v%206.082%20h%20-5.535%20v%202.494%20c%200%2C0.564%200.05%2C1.129%200.15%2C1.694%200.099%2C0.565%200.282%2C1.073%200.548%2C1.521%200.266%2C0.449%200.631%2C0.806%201.097%2C1.072%200.465%2C0.266%201.08%2C0.399%201.845%2C0.399%200.399%2C0%200.797%2C-0.034%201.197%2C-0.099%200.399%2C-0.067%200.747%2C-0.15%201.047%2C-0.25%20l%200.548%2C6.481%20C%203.374%2C-0.333%202.75%2C-0.208%202.069%2C-0.124%201.388%2C-0.042%200.698%2C0%200%2C0%22%20/%3E%3C/g%3E%3Cpath%0A%20%20%20%20%20%20%20%20%20%20%20id%3D%22path42%22%0A%20%20%20%20%20%20%20%20%20%20%20style%3D%22fill%3A%231c75bc%3Bfill-opacity%3A1%3Bfill-rule%3Anonzero%3Bstroke%3Anone%22%0A%20%20%20%20%20%20%20%20%20%20%20d%3D%22m%20273.668%2C15.068%20h%208.326%20v%2037.693%20h%20-8.326%20z%22%20/%3E%3Cg%0A%20%20%20%20%20%20%20%20%20%20%20transform%3D%22translate%28304.3301%2C39.8978%29%22%0A%20%20%20%20%20%20%20%20%20%20%20id%3D%22g44%22%3E%3Cpath%0A%20%20%20%20%20%20%20%20%20%20%20%20%20id%3D%22path46%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20style%3D%22fill%3A%231c75bc%3Bfill-opacity%3A1%3Bfill-rule%3Anonzero%3Bstroke%3Anone%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20d%3D%22m%200%2C0%20-4.935%2C-15.955%20h%20-0.15%20L%20-10.62%2C0%20h%20-9.074%20l%2010.371%2C-24.431%20-0.798%2C-2.044%20c%20-0.399%2C-1.064%20-0.881%2C-1.886%20-1.446%2C-2.468%20-0.565%2C-0.581%20-1.479%2C-0.872%20-2.742%2C-0.872%20-0.399%2C0%20-0.84%2C0.042%20-1.321%2C0.124%20-0.483%2C0.084%20-0.923%2C0.192%20-1.322%2C0.324%20l%20-0.897%2C-6.88%20c%200.599%2C-0.166%201.304%2C-0.299%202.119%2C-0.399%200.814%2C-0.1%201.603%2C-0.15%202.368%2C-0.15%201.562%2C0%202.917%2C0.184%204.064%2C0.549%201.147%2C0.366%202.144%2C0.906%202.991%2C1.621%200.848%2C0.714%201.579%2C1.578%202.194%2C2.592%200.614%2C1.014%201.172%2C2.169%201.67%2C3.465%20L%208.676%2C0%20Z%22%20/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+}
+
+.icon-share {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20width%3D%2218px%22%20height%3D%2220px%22%20viewBox%3D%220%200%2018%2020%22%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%3E%0A%20%20%20%20%3C%21--%20Generator%3A%20Sketch%203.8.3%20%2829802%29%20-%20http%3A//www.bohemiancoding.com/sketch%20--%3E%0A%20%20%20%20%3Ctitle%3ESlice%201%3C/title%3E%0A%20%20%20%20%3Cdesc%3ECreated%20with%20Sketch.%3C/desc%3E%0A%20%20%20%20%3Cdefs%3E%3C/defs%3E%0A%20%20%20%20%3Cg%20id%3D%22Page-1%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%0A%20%20%20%20%20%20%20%20%3Cg%20id%3D%22ic_share_black_24px%22%20transform%3D%22translate%28-3.000000%2C%20-2.000000%29%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpolygon%20id%3D%22Shape%22%20points%3D%220%200%2024%200%2024%2024%200%2024%22%3E%3C/polygon%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M18%2C16.08%20C17.24%2C16.08%2016.56%2C16.38%2016.04%2C16.85%20L8.91%2C12.7%20C8.96%2C12.47%209%2C12.24%209%2C12%20C9%2C11.76%208.96%2C11.53%208.91%2C11.3%20L15.96%2C7.19%20C16.5%2C7.69%2017.21%2C8%2018%2C8%20C19.66%2C8%2021%2C6.66%2021%2C5%20C21%2C3.34%2019.66%2C2%2018%2C2%20C16.34%2C2%2015%2C3.34%2015%2C5%20C15%2C5.24%2015.04%2C5.47%2015.09%2C5.7%20L8.04%2C9.81%20C7.5%2C9.31%206.79%2C9%206%2C9%20C4.34%2C9%203%2C10.34%203%2C12%20C3%2C13.66%204.34%2C15%206%2C15%20C6.79%2C15%207.5%2C14.69%208.04%2C14.19%20L15.16%2C18.35%20C15.11%2C18.56%2015.08%2C18.78%2015.08%2C19%20C15.08%2C20.61%2016.39%2C21.92%2018%2C21.92%20C19.61%2C21.92%2020.92%2C20.61%2020.92%2C19%20C20.92%2C17.39%2019.61%2C16.08%2018%2C16.08%20L18%2C16.08%20Z%22%20id%3D%22Shape%22%20fill%3D%22%23FFFFFF%22%3E%3C/path%3E%0A%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%3C/g%3E%0A%3C/svg%3E");
+  background-repeat: no-repeat;
+}
+
+.icon-arrow {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20width%3D%2220px%22%20height%3D%2220px%22%20viewBox%3D%220%200%2020%2020%22%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%3E%0A%20%20%20%20%3C%21--%20Generator%3A%20Sketch%203.8.3%20%2829802%29%20-%20http%3A//www.bohemiancoding.com/sketch%20--%3E%0A%20%20%20%20%3Ctitle%3ESlice%201%3C/title%3E%0A%20%20%20%20%3Cdesc%3ECreated%20with%20Sketch.%3C/desc%3E%0A%20%20%20%20%3Cdefs%3E%3C/defs%3E%0A%20%20%20%20%3Cg%20id%3D%22Page-1%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%0A%20%20%20%20%20%20%20%20%3Cpolygon%20id%3D%22Path-26%22%20fill%3D%22%23FFFFFF%22%20points%3D%220%2011.2691337%2010.0420393%200%2020%2011.2691337%2014.0233767%2011.2691337%2014.0233767%2020%206.06070179%2020%206.06070179%2011.2691337%22%3E%3C/polygon%3E%0A%20%20%20%20%3C/g%3E%0A%3C/svg%3E");
+  background-repeat: no-repeat;
+}
+
+.icon-beast-head {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20width%3D%2238px%22%20height%3D%2235px%22%20viewBox%3D%220%200%2038%2035%22%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%3E%0A%20%20%20%20%3C%21--%20Generator%3A%20Sketch%203.8.3%20%2829802%29%20-%20http%3A//www.bohemiancoding.com/sketch%20--%3E%0A%20%20%20%20%3Ctitle%3ESlice%201%3C/title%3E%0A%20%20%20%20%3Cdesc%3ECreated%20with%20Sketch.%3C/desc%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3Cpolygon%20id%3D%22path-1%22%20points%3D%220%2033.6800763%2037.8117192%2033.6800763%2037.8117192%200%200%200%22%3E%3C/polygon%3E%0A%20%20%20%20%3C/defs%3E%0A%20%20%20%20%3Cg%20id%3D%22Page-1%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%0A%20%20%20%20%20%20%20%20%3Cg%20id%3D%22svg2%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22g10%22%20transform%3D%22translate%2819.000000%2C%2017.784103%29%20scale%281%2C%20-1%29%20translate%28-19.000000%2C%20-17.784103%29%20translate%280.000000%2C%200.784103%29%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22g12%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22g14-Clipped%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cmask%20id%3D%22mask-2%22%20fill%3D%22white%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cuse%20xlink%3Ahref%3D%22%23path-1%22%3E%3C/use%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/mask%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22path16%22%3E%3C/g%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22g14%22%20mask%3D%22url%28%23mask-2%29%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20transform%3D%22translate%281.251029%2C%201.526846%29%22%20id%3D%22g20%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20transform%3D%22translate%280.247704%2C%200.288818%29%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M23.1440323%2C17.1006707%20C23.5096455%2C17.1006707%2023.8320982%2C16.9208083%2024.0238183%2C16.6465868%20C23.9106002%2C16.7195701%2023.7754891%2C16.7623217%2023.6294315%2C16.7623217%20C23.2322299%2C16.7623217%2022.91009%2C16.4480969%2022.91009%2C16.0602781%20C22.91009%2C15.6724593%2023.2322299%2C15.3582345%2023.6294315%2C15.3582345%20C23.7754891%2C15.3582345%2023.9106002%2C15.4009862%2024.0238183%2C15.473664%20C23.8320982%2C15.1997479%2023.5096455%2C15.0198855%2023.1440323%2C15.0198855%20C22.5554233%2C15.0198855%2022.0784686%2C15.4855734%2022.0784686%2C16.0602781%20C22.0784686%2C16.6349828%2022.5554233%2C17.1006707%2023.1440323%2C17.1006707%20M26.5368224%2C14.5291574%20C26.7951598%2C14.5291574%2027.0047071%2C14.3248654%2027.0047071%2C14.0723252%20C27.0047071%2C13.8200903%2026.7951598%2C13.6157983%2026.5368224%2C13.6157983%20C26.2781722%2C13.6157983%2026.0689376%2C13.8200903%2026.0689376%2C14.0723252%20C26.0689376%2C14.3248654%2026.2781722%2C14.5291574%2026.5368224%2C14.5291574%20M33.3618099%2C21.5590599%20C32.1586329%2C24.3360866%2030.1513573%2C26.6953685%2027.6239664%2C28.3626839%20C25.097201%2C30.0303046%2022.043127%2C31.0053482%2018.7663699%2C31.0050428%20C16.5823864%2C31.0050428%2014.4959832%2C30.5720294%2012.6003618%2C29.789063%20C9.75583515%2C28.614308%207.33978582%2C26.6547544%205.63181879%2C24.1867611%20C4.86306161%2C23.0761337%204.23973652%2C21.8607646%203.7846748%2C20.5687478%20C4.47711923%2C20.3220096%205.25651016%2C20.1671874%206.11065005%2C20.1839827%20C6.14911919%2C20.1839827%206.18602454%2C20.1848988%206.2235554%2C20.1852042%20C6.28235375%2C20.3366673%206.34302865%2C20.4869089%206.40745663%2C20.6356236%20C7.42454302%2C22.9842175%209.12719319%2C24.9862175%2011.2680162%2C26.3982443%20C13.410403%2C27.8105765%2015.9847074%2C28.6338516%2018.7663699%2C28.634157%20C20.6216456%2C28.6338516%2022.3827813%2C28.2677141%2023.986913%2C27.6053684%20C26.3923286%2C26.6123081%2028.442452%2C24.9504893%2029.888954%2C22.8596269%20C31.3351432%2C20.7681538%2032.1786494%2C18.2546606%2032.1789622%2C15.5387077%20C32.1789622%2C13.7275634%2031.8036535%2C12.0077245%2031.1255959%2C10.4414863%20C30.1081968%2C8.09289242%2028.4058594%2C6.09119783%2026.2650364%2C4.67886565%20C24.1226496%2C3.26683884%2021.5480324%2C2.4435637%2018.7663699%2C2.44325833%20C17.488444%2C2.44325833%2016.2552424%2C2.6176241%2015.0870943%2C2.94223147%20C15.0870943%2C2.94223147%2017.8815798%2C6.94287231%2018.6787979%2C8.64316757%20C18.8464357%2C9.00075481%2019.1053987%2C9.0245736%2019.3602958%2C9.02365749%20C19.3696785%2C9.02762729%2019.3787485%2C9.03129172%2019.3862547%2C9.03129172%20L21.8726744%2C9.03129172%20C24.324378%2C9.03129172%2025.2670282%2C9.43040916%2025.5888553%2C10.2442179%20C25.9669788%2C10.3431575%2026.1802792%2C10.5865366%2026.2468965%2C10.8836608%20C26.3413491%2C11.306597%2026.0642463%2C11.5838722%2025.6232586%2C11.5838722%20L23.3642134%2C11.5838722%20C22.6035879%2C11.6089125%2022.1475879%2C11.9304661%2022.1475879%2C12.2834728%20C22.1475879%2C12.2834728%2022.5310282%2C12.153691%2023.0677196%2C12.153691%20L26.0830117%2C12.153691%20C26.5374479%2C12.153691%2026.7917195%2C12.5940332%2026.921201%2C13.0981977%20C27.304954%2C13.263097%2027.572987%2C13.6368688%2027.572987%2C14.0723252%20C27.572987%2C14.5013688%2027.312773%2C14.8699493%2026.9387154%2C15.038513%20C26.6046907%2C16.7879727%2025.3915055%2C18.6656875%2023.1193245%2C19.3787243%20C23.2975961%2C19.5201103%2023.5027648%2C19.6147747%2023.7273245%2C19.6660767%20C23.2319171%2C20.1033653%2022.6708307%2C20.2383384%2022.1291352%2C20.163523%20C22.2654974%2C20.3690364%2022.4506496%2C20.5281337%2022.6698924%2C20.6450901%20C22.0349953%2C20.9556505%2021.422304%2C20.9168686%2020.8996867%2C20.6634122%20C20.8665345%2C22.5029558%2019.509481%2C24.3971605%2017.5932177%2C24.3971605%20C17.4127568%2C24.3971605%2017.2545016%2C24.3596001%2017.1397197%2C24.299137%20C18.399193%2C23.5940397%2018.7466662%2C22.3688988%2018.5752753%2C21.2246807%20C18.2465674%2C21.5257746%2017.8071436%2C21.7172411%2017.2560654%2C21.7282344%20C17.4065016%2C21.506231%2017.4953247%2C21.2582713%2017.5072094%2C20.9886303%20C17.0999996%2C21.3746169%2016.54423%2C21.5920397%2015.8586663%2C21.5019558%20C16.0259914%2C21.3227042%2016.1479667%2C21.1150532%2016.2089543%2C20.8793082%20C15.6960325%2C21.2430028%2015.0464358%2C21.3810297%2014.3283453%2C21.1156639%20C14.5081807%2C20.9947377%2014.6567404%2C20.8438854%2014.7683947%2C20.6634122%20C14.2758021%2C20.8536572%2013.7159667%2C20.8561001%2013.1420573%2C20.5687478%20C14.9616786%2C20.0429022%2015.990337%2C18.8397479%2016.2417938%2C18.0396808%20C16.2871436%2C17.6827043%2016.1523453%2C17.3489358%2015.9831436%2C17.1727378%20C15.5809379%2C19.0999223%2013.6168227%2C20.1626069%2011.5895306%2C20.1626069%20C8.96455945%2C20.1626069%207.95935783%2C19.4944592%206.14036199%2C19.4944592%20C4.45084763%2C19.4944592%201.8433909%2C20.1626069%200.361860073%2C22.014976%20C0.0759999981%2C21.6259357%200.0453497931%2C20.7895297%200.595802454%2C20.0612243%20C1.76551436%2C18.5133083%205.24775296%2C17.3205365%208.55516028%2C17.620409%20C8.77064999%2C16.7391137%204.45460071%2C16.8157613%202.21838678%2C18.1758754%20C2.10047731%2C17.5437613%202.39916043%2C17.1284593%202.72849376%2C16.7775902%20C3.40311103%2C16.0581405%205.86732496%2C15.149362%208.94704504%2C15.9540097%20C9.12375286%2C15.3600667%207.18153068%2C14.7664292%204.69010688%2C15.3026573%20C4.58814803%2C14.7618486%205.16080646%2C14.3065433%205.51390933%2C14.1724862%20C6.53725087%2C13.7840567%208.16265%2C13.6936674%209.63385984%2C14.364258%20C9.79086395%2C13.9617815%209.06839484%2C13.4887648%207.83800803%2C13.3873822%20C8.28869115%2C12.626097%209.30483927%2C12.3720299%2010.6343701%2C12.3720299%20C11.3430779%2C12.3720299%2011.9748474%2C12.4560064%2012.5349956%2C12.6025836%20C12.5465676%2C12.1103286%2011.5892178%2C11.787248%2010.1774318%2C11.7634292%20C8.9167076%2C11.7420534%207.43079817%2C12.2242312%206.98011505%2C13.3660064%20C5.15267477%2C13.3660064%203.57168715%2C14.1556909%203.87568715%2C15.5148889%20C3.59076534%2C15.5762681%203.26049375%2C15.6886439%202.93178593%2C15.8471305%20C2.92959663%2C15.7445265%202.92553079%2C15.6419224%202.92553079%2C15.5387077%20C2.92553079%2C13.4063151%203.36902049%2C11.3688923%204.17124269%2C9.5180501%20C5.37441962%2C6.74132869%207.38169529%2C4.38204687%209.90908617%2C2.71442611%20C12.4358515%2C1.04680534%2015.4896128%2C0.0717617432%2018.7663699%2C0.0723724814%20C20.9503534%2C0.0720671123%2023.0367566%2C0.505080524%2024.9326907%2C1.28835232%20C27.7769047%2C2.46310732%2030.1932667%2C4.42266096%2031.9012338%2C6.89034882%20C33.608888%2C9.35742594%2034.6075218%2C12.3393554%2034.6068963%2C15.5387077%20C34.607209%2C17.6711002%2034.1637193%2C19.7082176%2033.3618099%2C21.5590599%22%20id%3D%22path22%22%20fill%3D%22%23FFFFFF%22%3E%3C/path%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%3C/g%3E%0A%3C/svg%3E");
+  background-repeat: no-repeat;
+}
+
+.icon-search {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%3E%0A%20%20%20%20%3C%21--%20Generator%3A%20Sketch%203.8.3%20%2829802%29%20-%20http%3A//www.bohemiancoding.com/sketch%20--%3E%0A%20%20%20%20%3Ctitle%3ESlice%201%3C/title%3E%0A%20%20%20%20%3Cdesc%3ECreated%20with%20Sketch.%3C/desc%3E%0A%20%20%20%20%3Cdefs%3E%3C/defs%3E%0A%20%20%20%20%3Cg%20id%3D%22Page-1%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%0A%20%20%20%20%20%20%20%20%3Cg%20id%3D%22ic_search_black_24px%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22Group%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M15.5%2C14%20L14.71%2C14%20L14.43%2C13.73%20C15.41%2C12.59%2016%2C11.11%2016%2C9.5%20C16%2C5.91%2013.09%2C3%209.5%2C3%20C5.91%2C3%203%2C5.91%203%2C9.5%20C3%2C13.09%205.91%2C16%209.5%2C16%20C11.11%2C16%2012.59%2C15.41%2013.73%2C14.43%20L14%2C14.71%20L14%2C15.5%20L19%2C20.49%20L20.49%2C19%20L15.5%2C14%20L15.5%2C14%20Z%20M9.5%2C14%20C7.01%2C14%205%2C11.99%205%2C9.5%20C5%2C7.01%207.01%2C5%209.5%2C5%20C11.99%2C5%2014%2C7.01%2014%2C9.5%20C14%2C11.99%2011.99%2C14%209.5%2C14%20L9.5%2C14%20Z%22%20id%3D%22Shape%22%20fill%3D%22%23FFFFFF%22%3E%3C/path%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpolygon%20id%3D%22Shape%22%20points%3D%220%200%2024%200%2024%2024%200%2024%22%3E%3C/polygon%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%3C/g%3E%0A%3C/svg%3E");
+  background-repeat: no-repeat;
+}
+
+.icon-cart {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20width%3D%2220px%22%20height%3D%2220px%22%20viewBox%3D%220%200%2020%2020%22%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%3E%0A%20%20%20%20%3C%21--%20Generator%3A%20Sketch%203.8.3%20%2829802%29%20-%20http%3A//www.bohemiancoding.com/sketch%20--%3E%0A%20%20%20%20%3Ctitle%3ESlice%201%3C/title%3E%0A%20%20%20%20%3Cdesc%3ECreated%20with%20Sketch.%3C/desc%3E%0A%20%20%20%20%3Cdefs%3E%3C/defs%3E%0A%20%20%20%20%3Cg%20id%3D%22Page-1%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2C16%20C4.9%2C16%204.01%2C16.9%204.01%2C18%20C4.01%2C19.1%204.9%2C20%206%2C20%20C7.1%2C20%208%2C19.1%208%2C18%20C8%2C16.9%207.1%2C16%206%2C16%20L6%2C16%20Z%20M0%2C0%20L0%2C2%20L2%2C2%20L5.6%2C9.59%20L4.25%2C12.04%20C4.09%2C12.32%204%2C12.65%204%2C13%20C4%2C14.1%204.9%2C15%206%2C15%20L18%2C15%20L18%2C13%20L6.42%2C13%20C6.28%2C13%206.17%2C12.89%206.17%2C12.75%20L6.2%2C12.63%20L7.1%2C11%20L14.55%2C11%20C15.3%2C11%2015.96%2C10.59%2016.3%2C9.97%20L19.88%2C3.48%20C19.96%2C3.34%2020%2C3.17%2020%2C3%20C20%2C2.45%2019.55%2C2%2019%2C2%20L4.21%2C2%20L3.27%2C0%20L0%2C0%20L0%2C0%20Z%20M16%2C16%20C14.9%2C16%2014.01%2C16.9%2014.01%2C18%20C14.01%2C19.1%2014.9%2C20%2016%2C20%20C17.1%2C20%2018%2C19.1%2018%2C18%20C18%2C16.9%2017.1%2C16%2016%2C16%20L16%2C16%20Z%22%20id%3D%22Shape%22%20fill%3D%22%23FFFFFF%22%3E%3C/path%3E%0A%20%20%20%20%3C/g%3E%0A%3C/svg%3E");
+  background-repeat: no-repeat;
+}
+
+.hero-wrapper {
+  background: linear-gradient(45deg, rgba(140, 37, 149, 0.6), rgba(26, 188, 156, 0.5)), url(../../../../images/hero-img.jpg) left no-repeat;
+  background-size: cover;
+  height: 260px;
+  padding: 0.5625000003em;
+  text-align: center;
+}
+
+.hero-wrapper h2,
+.hero-wrapper p {
+  color: #FFFFFF;
+}
+
+.hero-wrapper h2 {
+  font-family: "f-bold", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.3703703686em;
+}
+
+.hero-wrapper p {
+  font-family: "f-medium", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.333333333em;
+}
+
+@media screen and (min-width: 375px) {
+  .hero-wrapper h2 {
+    margin-top: 1.333333333em;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .hero-wrapper h2 {
+    margin-top: 1.333333333em;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .hero-wrapper h2 {
+    margin-top: 1em;
+    font-size: 3.160493824em;
+  }
+  .hero-wrapper p {
+    font-size: 2.3703703686em;
+    margin: 0;
+  }
+}
+
+.search-sort-wrapper {
+  margin: 0 0 36px 0;
+}
+
+.search-sort-wrapper .search-wrap,
+.search-sort-wrapper .sort-wrapper {
+  width: 300px;
+}
+
+.search-sort-wrapper .search-wrap input {
+  background-color: #BEE7E7;
+  outline: none;
+  border: none;
+  height: 40px;
+  padding: 0 7px;
+  width: 260px;
+  color: #34495E;
+}
+
+.search-sort-wrapper .search-wrap .search-button {
+  outline: none;
+  border: none;
+  height: 40px;
+  margin: 0 0 0 -1.33%;
+  width: 40px;
+  background-color: #1ABC9C;
+  background-position: center;
+  text-indent: -9999px;
+}
+
+.search-sort-wrapper .sort-wrapper {
+  margin-top: 21px;
+  text-align: center;
+}
+
+.search-sort-wrapper .sort-wrapper ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.search-sort-wrapper .sort-wrapper ul li {
+  text-align: center;
+  padding: 0 10px;
+  display: inline-block;
+  width: 50%;
+}
+
+.search-sort-wrapper .sort-wrapper ul li:first-child {
+  border-right: 1px solid #9B9B9B;
+}
+
+.search-sort-wrapper .sort-wrapper ul li button {
+  border: none;
+  outline: none;
+  background: none;
+  color: #3498DB;
+}
+
+.search-sort-wrapper .sort-wrapper ul li button.active {
+  text-decoration: underline;
+}
+
+.header-wrapper {
+  height: 50px;
+  background: #F1C40F;
+  width: 100%;
+  z-index: 9999;
+}
+
+.header-wrapper h1 {
+  font-family: "f-bold", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 40%;
+  display: inline-block;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+.header-wrapper h1 {
+  color: #34495E;
+  margin-left: 16px;
+}
+
+html.svg .header-wrapper h1 {
+  position: relative;
+  height: 50px;
+}
+
+html.svg .header-wrapper h1::after {
+  content: '';
+  height: 50px;
+  width: 100%;
+  display: block;
+  background-size: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-position: center left;
+}
+
+.header-wrapper nav {
+  width: 50%;
+  float: right;
+  height: 100%;
+  overflow: hidden;
+}
+
+.header-wrapper nav a {
+  line-height: 50px;
+  display: block;
+  vertical-align: middle;
+  font-family: "f-medium", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 0 21px;
+  float: right;
+  color: #34495E;
+  text-align: center;
+}
+
+.header-wrapper nav a:hover {
+  background-color: #f5d657;
+}
+
+.header-wrapper nav a.active {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 720px) {
+  .header-wrapper nav a.responsive-item {
+    display: none;
+  }
+}
+
+.featured-item-wrapper {
+  background: linear-gradient(45deg, rgba(26, 188, 156, 0.7), rgba(140, 37, 149, 0.6)), url(../../../../images/feature.jpg) left no-repeat;
+  background-size: cover;
+  height: 400px;
+  padding: 0.5625000003em;
+}
+
+.featured-item-wrapper .inner-wrapper {
+  position: relative;
+}
+
+.featured-item-wrapper.product {
+  background: linear-gradient(45deg, rgba(26, 188, 156, 0.7), rgba(140, 37, 149, 0.6)), url(../../../../images/featprod.jpg) left no-repeat;
+}
+
+.featured-item-wrapper h2 {
+  font-family: "f-bold", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.3703703686em;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 768px) {
+  .featured-item-wrapper h2 {
+    font-size: 3.160493824em;
+    margin-top: 30px;
+  }
+}
+
+.featured-item-wrapper .item-wrapper {
+  max-width: 500px;
+  margin-top: 30px;
+}
+
+.featured-item-wrapper .cta {
+  margin: 30px auto 0 auto;
+  max-width: 280px;
+}
+
+.cta {
+  font-size: 1.333333333em;
+  font-family: "f-bold", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: linear-gradient(#f4d03f, #F1C40F);
+  display: inline-block;
+  padding: 7px 12px;
+  text-decoration: none;
+}
+
+.item-wrapper {
+  width: 100%;
+}
+
+.item-wrapper h2, .item-wrapper p {
+  margin: 0;
+  color: #34495E;
+  font-family: "f-medium", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.item-wrapper h2 {
+  font-size: 1.333333333em;
+}
+
+.item-wrapper p {
+  font-size: 1em;
+}
+
+.item-wrapper p.item-home {
+  color: #3498DB;
+}
+
+.item-wrapper p.item-description {
+  margin-top: 16px;
+}
+
+.item-wrapper .item-inner-wrapper {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 9px;
+  overflow: hidden;
+  box-shadow: 0 14px 32px 8px rgba(52, 73, 94, 0.19);
+}
+
+.item-wrapper .item-inner-wrapper img {
+  width: 40%;
+  max-width: 155px;
+  display: block;
+  float: left;
+}
+
+.item-wrapper .item-inner-wrapper .info-wrapper {
+  display: block;
+  float: left;
+  overflow: hidden;
+  width: 60%;
+  padding-left: 9px;
+}
+
+.item-wrapper .item-actions-wrapper {
+  width: 80%;
+  height: 30px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.item-wrapper .item-actions-wrapper button {
+  margin: 0 0 0 4px;
+}
+
+@media screen and (min-width: 425px) {
+  .item-wrapper .item-actions-wrapper {
+    width: 100%;
+    height: 30px;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin-top: -39px;
+  }
+}
+
+.action-button {
+  outline: none;
+  border: none;
+  height: 100%;
+  position: relative;
+  padding: 0 9px 0 0;
+  display: inline-block;
+  overflow: hidden;
+  transition: all ease 0.5s;
+}
+
+.action-button i {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-color: #9B9B9B;
+  margin-right: 9px;
+  float: left;
+}
+
+.action-button i[class^="icon-"] {
+  background-position: center;
+}
+
+.action-button i.icon-arrow,
+.action-button i.icon-share {
+  background-size: 14px;
+}
+
+.action-button i.icon-beast-head {
+  background-size: 24px;
+}
+
+.action-button.upvote:hover, .action-button.upvote.active {
+  background-color: #F1C40F;
+}
+
+.action-button.upvote:hover i, .action-button.upvote.active i {
+  background-color: #c29d0b;
+}
+
+.action-button.share:hover, .action-button.share.active {
+  background-color: #1ABC9C;
+}
+
+.action-button.share:hover span, .action-button.share.active span {
+  color: #FFFFFF;
+}
+
+.action-button.share:hover i, .action-button.share.active i {
+  background-color: #148f77;
+}
+
+.action-button.buy:hover, .action-button.buy.active {
+  background-color: #E74C3C;
+}
+
+.action-button.buy:hover span, .action-button.buy.active span {
+  color: #FFFFFF;
+}
+
+.action-button.buy:hover i, .action-button.buy.active i {
+  background-color: #d62c1a;
+}
+
+.action-button span {
+  display: inline-block;
+  line-height: 30px;
+  vertical-align: middle;
+  font-family: "f-medium", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #34495E;
+}
+
+footer {
+  overflow: hidden;
+  height: 150px;
+  float: left;
+  width: 100%;
+  background: #F1C40F;
+  margin-top: 20px;
+}
+
+footer .links, footer .logo-wrapper {
+  width: 50%;
+  height: 100%;
+  padding: 16px;
+  margin: 0;
+  float: left;
+}
+
+footer .logo-wrapper {
+  text-align: center;
+}
+
+footer .logo-wrapper img {
+  width: 90px;
+}
+
+footer .social-wrapper {
+  width: 100%;
+  height: 48px;
+}
+
+footer .social-wrapper ul.social-list {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+footer .links a {
+  text-decoration: none;
+  font-family: "f-medium", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #34495E;
+}
+
+footer .links a:hover {
+  text-decoration: underline;
+}
+
+footer .links div {
+  text-align: center;
+}
+
+footer .links div img {
+  max-height: 120px;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 600px) {
+  footer {
+    background: linear-gradient(4deg, #F1C40F 70%, #F1C40F 30%, #FFF 30%);
+  }
+  footer .links, footer .logo-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 33.33%;
+    height: 100%;
+    float: left;
+  }
+  footer .links {
+    padding-top: 30px;
+  }
+  footer .social-list {
+    height: 48px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  footer .social-list li {
+    float: left;
+    width: 33.33%;
+  }
+  footer .social-list li:last-child {
+    margin-right: 0;
+  }
+  footer .social-list li button {
+    display: block;
+    height: 48px;
+    width: 100%;
+    outline: none;
+    border: none;
+  }
+  footer .social-list li button.twitter {
+    background: url(../../../images/twitter.svg) center no-repeat;
+  }
+  footer .social-list li button.facebook {
+    background: url(../../../images/facebook.svg) center no-repeat;
+  }
+  footer .social-list li button.instagram {
+    background: url(../../../images/instagram.svg) center no-repeat;
+  }
+  footer div.logo-wrapper {
+    text-align: center;
+  }
+  footer div.logo-wrapper img {
+    width: 120px;
+    margin-top: 0;
+  }
+}
+
+.profile-content {
+  background: #34495E;
+  padding-bottom: 16px;
+}
+
+@media screen and (min-width: 628px) {
+  .profile-content {
+    background: none;
+  }
+}
+
+.profile-content .profile-wrapper .profile-header {
+  background: linear-gradient(174deg, #1ABC9C 50%, #1ABC9C 30%, #34495E 30%);
+  height: 85px;
+  position: relative;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 628px) {
+  .profile-content .profile-wrapper .profile-header {
+    background: linear-gradient(170deg, #1ABC9C 50%, #1ABC9C 30%, #FFF 30%);
+  }
+}
+
+.profile-content .profile-wrapper .profile-header img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  border-radius: 100%;
+  z-index: 8999;
+  border: 4px solid #1ABC9C;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.profile-content .profile-wrapper .profile-header p {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: block;
+  color: #1ABC9C;
+  width: 50%;
+  text-align: right;
+  padding: 0 9px 0 0;
+  font-family: "f-medium", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #3498DB;
+}
+
+.profile-content .share-items-wrapper,
+.profile-content .curated-items-wrapper {
+  margin-bottom: 16px;
+}
+
+.profile-content .share-items-wrapper h2,
+.profile-content .curated-items-wrapper h2 {
+  font-size: 1.333333333em;
+  text-align: center;
+  color: #1ABC9C;
+}
+
+@media screen and (min-width: 628px) {
+  .profile-content .share-items-wrapper h2,
+  .profile-content .curated-items-wrapper h2 {
+    color: #3498DB;
+  }
+}
+
+.profile-content .share-items-wrapper ul,
+.profile-content .curated-items-wrapper ul {
+  width: 300px;
+  margin: 12px auto 0 auto;
+  padding: 0;
+}
+
+@media screen and (min-width: 628px) {
+  .profile-content .share-items-wrapper ul,
+  .profile-content .curated-items-wrapper ul {
+    width: 100%;
+    margin: 12px 0 0 0;
+  }
+}
+
+.profile-content .share-items-wrapper ul li,
+.profile-content .curated-items-wrapper ul li {
+  width: 100%;
+  padding: 0 7px 7px 7px;
+  margin-bottom: 21px;
+}
+
+@media screen and (min-width: 628px) and (max-width: 924px) {
+  .profile-content .share-items-wrapper ul li,
+  .profile-content .curated-items-wrapper ul li {
+    border-bottom: 1px solid #DCDCDC;
+  }
+}
+
+@media screen and (min-width: 925px) {
+  .profile-content .share-items-wrapper ul li,
+  .profile-content .curated-items-wrapper ul li {
+    box-shadow: 0 14px 32px 8px rgba(52, 73, 94, 0.19);
+  }
+}
+
+.profile-content .share-items-wrapper ul li h3, .profile-content .share-items-wrapper ul li p,
+.profile-content .curated-items-wrapper ul li h3,
+.profile-content .curated-items-wrapper ul li p {
+  color: #F1C40F;
+}
+
+.profile-content .share-items-wrapper ul li p,
+.profile-content .curated-items-wrapper ul li p {
+  font-size: 0.7500000002em;
+}
+
+@media screen and (min-width: 628px) {
+  .profile-content .share-items-wrapper ul li h3, .profile-content .share-items-wrapper ul li p,
+  .profile-content .curated-items-wrapper ul li h3,
+  .profile-content .curated-items-wrapper ul li p {
+    color: #34495E;
+  }
+}
+
+.profile-content .share-items-wrapper .title-info,
+.profile-content .curated-items-wrapper .title-info {
+  overflow: hidden;
+  margin-bottom: 7px;
+}
+
+.brand-wrap {
+  padding: 16px 7px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.brand-wrap h2.section-title {
+  margin-bottom: 16px;
+  color: #1ABC9C;
+}
+
+.brand-wrap .item-wrapper {
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+@media screen and (min-width: 620px) and (max-width: 849px) {
+  .brand-wrap .item-wrapper {
+    max-width: 60%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .brand-wrap .item-wrapper {
+    width: 48%;
+    margin-bottom: 21px;
+    height: 165px;
+  }
+  .brand-wrap .item-wrapper:nth-child(odd) {
+    float: left;
+  }
+  .brand-wrap .item-wrapper:nth-child(even) {
+    float: right;
+  }
+}
+
+.brand-wrap .action-button.loadmore {
+  background-color: #1ABC9C;
+}
+
+.brand-wrap .action-button.loadmore i {
+  background-color: #148f77;
+  transform: rotate(90deg);
+}
+
+.brand-wrap .loadmore {
+  margin: 30px 0 0 0;
+}
+
+.product-wrap {
+  padding: 16px 7px;
+  text-align: center;
+}
+
+.product-wrap h2.section-title {
+  margin-bottom: 16px;
+  color: #34495E;
+}
+
+.product-wrap .search-wrap input.prod-search {
+  background-color: #F1C40F;
+}
+
+.product-wrap .search-wrap input.search-button {
+  background-color: #927608;
+}
+
+.product-wrap .item-wrapper {
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+@media screen and (min-width: 620px) and (max-width: 849px) {
+  .product-wrap .item-wrapper {
+    max-width: 60%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .product-wrap .item-wrapper {
+    width: 48%;
+    margin-bottom: 21px;
+    height: 165px;
+  }
+  .product-wrap .item-wrapper:nth-child(odd) {
+    float: left;
+  }
+  .product-wrap .item-wrapper:nth-child(even) {
+    float: right;
+  }
+}
+
+.product-wrap .action-button.loadmore {
+  background-color: #F1C40F;
+}
+
+.product-wrap .action-button.loadmore i {
+  background-color: #c29d0b;
+  transform: rotate(90deg);
+}
+
+.product-wrap .loadmore {
+  margin: 30px 0 0 0;
+}
+
+a, a:visited {
+  color: #34495E;
+}
+
+body {
+  font-family: "f-book", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  min-width: 320px;
+}
+
+/* Uncomment and set these variables to customize the grid. */
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.row {
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: -1rem;
+  margin-left: -1rem;
+}
+
+.row.reverse {
+  flex-direction: row-reverse;
+}
+
+.col.reverse {
+  flex-direction: column-reverse;
+}
+
+.col-xs,
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.col-xs {
+  flex-grow: 1;
+  flex-basis: 0;
+  max-width: 100%;
+}
+
+.col-xs-1 {
+  flex-basis: 8.333%;
+  max-width: 8.333%;
+}
+
+.col-xs-2 {
+  flex-basis: 16.667%;
+  max-width: 16.667%;
+}
+
+.col-xs-3 {
+  flex-basis: 25%;
+  max-width: 25%;
+}
+
+.col-xs-4 {
+  flex-basis: 33.333%;
+  max-width: 33.333%;
+}
+
+.col-xs-5 {
+  flex-basis: 41.667%;
+  max-width: 41.667%;
+}
+
+.col-xs-6 {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+
+.col-xs-7 {
+  flex-basis: 58.333%;
+  max-width: 58.333%;
+}
+
+.col-xs-8 {
+  flex-basis: 66.667%;
+  max-width: 66.667%;
+}
+
+.col-xs-9 {
+  flex-basis: 75%;
+  max-width: 75%;
+}
+
+.col-xs-10 {
+  flex-basis: 83.333%;
+  max-width: 83.333%;
+}
+
+.col-xs-11 {
+  flex-basis: 91.667%;
+  max-width: 91.667%;
+}
+
+.col-xs-12 {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.col-xs-offset-1 {
+  margin-left: 8.333%;
+}
+
+.col-xs-offset-2 {
+  margin-left: 16.667%;
+}
+
+.col-xs-offset-3 {
+  margin-left: 25%;
+}
+
+.col-xs-offset-4 {
+  margin-left: 33.333%;
+}
+
+.col-xs-offset-5 {
+  margin-left: 41.667%;
+}
+
+.col-xs-offset-6 {
+  margin-left: 50%;
+}
+
+.col-xs-offset-7 {
+  margin-left: 58.333%;
+}
+
+.col-xs-offset-8 {
+  margin-left: 66.667%;
+}
+
+.col-xs-offset-9 {
+  margin-left: 75%;
+}
+
+.col-xs-offset-10 {
+  margin-left: 83.333%;
+}
+
+.col-xs-offset-11 {
+  margin-left: 91.667%;
+}
+
+.start-xs {
+  justify-content: flex-start;
+  text-align: start;
+}
+
+.center-xs {
+  justify-content: center;
+  text-align: center;
+}
+
+.end-xs {
+  justify-content: flex-end;
+  text-align: end;
+}
+
+.top-xs {
+  -ms-grid-row-align: flex-start;
+      align-items: flex-start;
+}
+
+.middle-xs {
+  -ms-grid-row-align: center;
+      align-items: center;
+}
+
+.bottom-xs {
+  -ms-grid-row-align: flex-end;
+      align-items: flex-end;
+}
+
+.around-xs {
+  justify-content: space-around;
+}
+
+.between-xs {
+  justify-content: space-between;
+}
+
+.first-xs {
+  order: -1;
+}
+
+.last-xs {
+  order: 1;
+}
+
+@media only screen and (min-width: 48em) {
+  .container {
+    width: 46rem;
+  }
+  .col-sm,
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12 {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .col-sm {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+  }
+  .col-sm-1 {
+    flex-basis: 8.333%;
+    max-width: 8.333%;
+  }
+  .col-sm-2 {
+    flex-basis: 16.667%;
+    max-width: 16.667%;
+  }
+  .col-sm-3 {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+  .col-sm-4 {
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+  }
+  .col-sm-5 {
+    flex-basis: 41.667%;
+    max-width: 41.667%;
+  }
+  .col-sm-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .col-sm-7 {
+    flex-basis: 58.333%;
+    max-width: 58.333%;
+  }
+  .col-sm-8 {
+    flex-basis: 66.667%;
+    max-width: 66.667%;
+  }
+  .col-sm-9 {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+  .col-sm-10 {
+    flex-basis: 83.333%;
+    max-width: 83.333%;
+  }
+  .col-sm-11 {
+    flex-basis: 91.667%;
+    max-width: 91.667%;
+  }
+  .col-sm-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .col-sm-offset-1 {
+    margin-left: 8.333%;
+  }
+  .col-sm-offset-2 {
+    margin-left: 16.667%;
+  }
+  .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+  .col-sm-offset-4 {
+    margin-left: 33.333%;
+  }
+  .col-sm-offset-5 {
+    margin-left: 41.667%;
+  }
+  .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+  .col-sm-offset-7 {
+    margin-left: 58.333%;
+  }
+  .col-sm-offset-8 {
+    margin-left: 66.667%;
+  }
+  .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+  .col-sm-offset-10 {
+    margin-left: 83.333%;
+  }
+  .col-sm-offset-11 {
+    margin-left: 91.667%;
+  }
+  .start-sm {
+    justify-content: flex-start;
+    text-align: start;
+  }
+  .center-sm {
+    justify-content: center;
+    text-align: center;
+  }
+  .end-sm {
+    justify-content: flex-end;
+    text-align: end;
+  }
+  .top-sm {
+    -ms-grid-row-align: flex-start;
+        align-items: flex-start;
+  }
+  .middle-sm {
+    -ms-grid-row-align: center;
+        align-items: center;
+  }
+  .bottom-sm {
+    -ms-grid-row-align: flex-end;
+        align-items: flex-end;
+  }
+  .around-sm {
+    justify-content: space-around;
+  }
+  .between-sm {
+    justify-content: space-between;
+  }
+  .first-sm {
+    order: -1;
+  }
+  .last-sm {
+    order: 1;
+  }
+}
+
+@media only screen and (min-width: 62em) {
+  .container {
+    width: 61rem;
+  }
+  .col-md,
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12 {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .col-md {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+  }
+  .col-md-1 {
+    flex-basis: 8.333%;
+    max-width: 8.333%;
+  }
+  .col-md-2 {
+    flex-basis: 16.667%;
+    max-width: 16.667%;
+  }
+  .col-md-3 {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+  .col-md-4 {
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+  }
+  .col-md-5 {
+    flex-basis: 41.667%;
+    max-width: 41.667%;
+  }
+  .col-md-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .col-md-7 {
+    flex-basis: 58.333%;
+    max-width: 58.333%;
+  }
+  .col-md-8 {
+    flex-basis: 66.667%;
+    max-width: 66.667%;
+  }
+  .col-md-9 {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+  .col-md-10 {
+    flex-basis: 83.333%;
+    max-width: 83.333%;
+  }
+  .col-md-11 {
+    flex-basis: 91.667%;
+    max-width: 91.667%;
+  }
+  .col-md-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .col-md-offset-1 {
+    margin-left: 8.333%;
+  }
+  .col-md-offset-2 {
+    margin-left: 16.667%;
+  }
+  .col-md-offset-3 {
+    margin-left: 25%;
+  }
+  .col-md-offset-4 {
+    margin-left: 33.333%;
+  }
+  .col-md-offset-5 {
+    margin-left: 41.667%;
+  }
+  .col-md-offset-6 {
+    margin-left: 50%;
+  }
+  .col-md-offset-7 {
+    margin-left: 58.333%;
+  }
+  .col-md-offset-8 {
+    margin-left: 66.667%;
+  }
+  .col-md-offset-9 {
+    margin-left: 75%;
+  }
+  .col-md-offset-10 {
+    margin-left: 83.333%;
+  }
+  .col-md-offset-11 {
+    margin-left: 91.667%;
+  }
+  .start-md {
+    justify-content: flex-start;
+    text-align: start;
+  }
+  .center-md {
+    justify-content: center;
+    text-align: center;
+  }
+  .end-md {
+    justify-content: flex-end;
+    text-align: end;
+  }
+  .top-md {
+    -ms-grid-row-align: flex-start;
+        align-items: flex-start;
+  }
+  .middle-md {
+    -ms-grid-row-align: center;
+        align-items: center;
+  }
+  .bottom-md {
+    -ms-grid-row-align: flex-end;
+        align-items: flex-end;
+  }
+  .around-md {
+    justify-content: space-around;
+  }
+  .between-md {
+    justify-content: space-between;
+  }
+  .first-md {
+    order: -1;
+  }
+  .last-md {
+    order: 1;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .container {
+    width: 71rem;
+  }
+  .col-lg,
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12 {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .col-lg {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+  }
+  .col-lg-1 {
+    flex-basis: 8.333%;
+    max-width: 8.333%;
+  }
+  .col-lg-2 {
+    flex-basis: 16.667%;
+    max-width: 16.667%;
+  }
+  .col-lg-3 {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+  .col-lg-4 {
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+  }
+  .col-lg-5 {
+    flex-basis: 41.667%;
+    max-width: 41.667%;
+  }
+  .col-lg-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .col-lg-7 {
+    flex-basis: 58.333%;
+    max-width: 58.333%;
+  }
+  .col-lg-8 {
+    flex-basis: 66.667%;
+    max-width: 66.667%;
+  }
+  .col-lg-9 {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+  .col-lg-10 {
+    flex-basis: 83.333%;
+    max-width: 83.333%;
+  }
+  .col-lg-11 {
+    flex-basis: 91.667%;
+    max-width: 91.667%;
+  }
+  .col-lg-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .col-lg-offset-1 {
+    margin-left: 8.333%;
+  }
+  .col-lg-offset-2 {
+    margin-left: 16.667%;
+  }
+  .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+  .col-lg-offset-4 {
+    margin-left: 33.333%;
+  }
+  .col-lg-offset-5 {
+    margin-left: 41.667%;
+  }
+  .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+  .col-lg-offset-7 {
+    margin-left: 58.333%;
+  }
+  .col-lg-offset-8 {
+    margin-left: 66.667%;
+  }
+  .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+  .col-lg-offset-10 {
+    margin-left: 83.333%;
+  }
+  .col-lg-offset-11 {
+    margin-left: 91.667%;
+  }
+  .start-lg {
+    justify-content: flex-start;
+    text-align: start;
+  }
+  .center-lg {
+    justify-content: center;
+    text-align: center;
+  }
+  .end-lg {
+    justify-content: flex-end;
+    text-align: end;
+  }
+  .top-lg {
+    -ms-grid-row-align: flex-start;
+        align-items: flex-start;
+  }
+  .middle-lg {
+    -ms-grid-row-align: center;
+        align-items: center;
+  }
+  .bottom-lg {
+    -ms-grid-row-align: flex-end;
+        align-items: flex-end;
+  }
+  .around-lg {
+    justify-content: space-around;
+  }
+  .between-lg {
+    justify-content: space-between;
+  }
+  .first-lg {
+    order: -1;
+  }
+  .last-lg {
+    order: 1;
+  }
+}
+/*# sourceMappingURL=main.css.map */
