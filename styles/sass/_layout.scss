@@ -14,6 +14,13 @@
 	margin: 0 auto;
 	@extend .constrained;
 }
+
+.brand-wrap{
+	@extend .centered-containing-block;
+	@extend .constrained;
+}
+
+
 .left, .right{
 	float: right;
 	width: 100%;

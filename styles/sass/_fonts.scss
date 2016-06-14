@@ -25,3 +25,9 @@ $font-stack: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill
 $f-book: 'f-book', $font-stack;
 $f-medium: 'f-medium', $font-stack;
 $f-bold: 'f-bold', $font-stack;
+
+h2.section-title{
+	font-size: ms(4);
+	font-family: $f-bold;
+	text-align: center;
+}

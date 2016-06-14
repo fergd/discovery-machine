@@ -1,6 +1,6 @@
 .item-wrapper{
 	width: 100%;
-	max-width: 500px;
+	// max-width: 500px;
 	
 	h2, p{
 		margin: 0;
@@ -55,7 +55,7 @@
 		}
 	}
 
-	@media screen and (min-width: 460px){
+	@media screen and (min-width: 425px){
 		.item-actions-wrapper{
 			width: 100%;
 			height: $button-height;
@@ -65,12 +65,6 @@
 			margin-top: -39px;
 		}
 	}
-
-	// @media screen and (min-width: 520px){
-	// 	.item-actions-wrapper{
-	// 		margin-top: -39px;
-	// 	}
-	// }
 }
 
 
